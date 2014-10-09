@@ -1,0 +1,398 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+[Project Settings]
+ProjectName="bin/ti_platforms_evmTI816X/all_DSP_xe674"
+ProjectType=External
+CPUFamily=TMS320C67XX
+Tool="Compiler"
+Tool="CustomBuilder"
+Config="Executable"
+
+[Project Dependencies]
+Source="/home/houstar/ezsdk/component-sources/ipc_1_24_03_32/packages/ti/sdo/ipc/family/package/ti.sdo.ipc.family.pjt"
+Source="/home/houstar/ezsdk/component-sources/ipc_1_24_03_32/packages/ti/sdo/ipc/interfaces/package/ti.sdo.ipc.interfaces.pjt"
+Source="/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/global/package/ti.sdo.ce.global.pjt"
+Source="/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/global/package/ti.sdo.fc.global.pjt"
+Source="/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/auddec_copy/package/ti.xdais.dm.examples.auddec_copy.pjt"
+Source="/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/viddec3_copy/package/ti.xdais.dm.examples.viddec3_copy.pjt"
+Source="/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/viddec2_copy/package/ti.xdais.dm.examples.viddec2_copy.pjt"
+Source="/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/videnc1_copy/package/ti.xdais.dm.examples.videnc1_copy.pjt"
+Source="/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/imgdec1_copy/package/ti.xdais.dm.examples.imgdec1_copy.pjt"
+Source="/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/imgenc1_copy/package/ti.xdais.dm.examples.imgenc1_copy.pjt"
+Source="/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/sphenc1_copy/package/ti.xdais.dm.examples.sphenc1_copy.pjt"
+Source="/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/sphdec1_copy/package/ti.xdais.dm.examples.sphdec1_copy.pjt"
+Source="/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/auddec1_copy/package/ti.xdais.dm.examples.auddec1_copy.pjt"
+Source="/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/audenc1_copy/package/ti.xdais.dm.examples.audenc1_copy.pjt"
+Source="/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/g711/package/ti.xdais.dm.examples.g711.pjt"
+Source="/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/vidtranscode_copy/package/ti.xdais.dm.examples.vidtranscode_copy.pjt"
+Source="/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/vidanalytics_copy/package/ti.xdais.dm.examples.vidanalytics_copy.pjt"
+Source="/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/universal_copy/package/ti.xdais.dm.examples.universal_copy.pjt"
+Source="/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/viddec1_copy/package/ti.xdais.dm.examples.viddec1_copy.pjt"
+Source="/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/viddec2split_copy/package/ti.xdais.dm.examples.viddec2split_copy.pjt"
+Source="/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/videnc2_copy/package/ti.xdais.dm.examples.videnc2_copy.pjt"
+Source="/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/utils/syscbuf/package/ti.sdo.ce.utils.syscbuf.pjt"
+Source="/home/houstar/ezsdk/component-sources/bios_6_33_05_46/packages/ti/sysbios/package/ti.sysbios.pjt"
+Source="/home/houstar/ezsdk/component-sources/bios_6_33_05_46/packages/ti/sysbios/hal/package/ti.sysbios.hal.pjt"
+Source="/home/houstar/ezsdk/component-sources/bios_6_33_05_46/packages/ti/sysbios/knl/package/ti.sysbios.knl.pjt"
+Source="/home/houstar/ezsdk/component-sources/bios_6_33_05_46/packages/ti/sysbios/family/c64p/package/ti.sysbios.family.c64p.pjt"
+Source="/home/houstar/ezsdk/component-sources/bios_6_33_05_46/packages/ti/sysbios/gates/package/ti.sysbios.gates.pjt"
+Source="/home/houstar/ezsdk/component-sources/bios_6_33_05_46/packages/ti/sysbios/heaps/package/ti.sysbios.heaps.pjt"
+Source="/home/houstar/ezsdk/component-sources/bios_6_33_05_46/packages/ti/sysbios/xdcruntime/package/ti.sysbios.xdcruntime.pjt"
+Source="/home/houstar/ezsdk/component-sources/ipc_1_24_03_32/packages/ti/sdo/utils/package/ti.sdo.utils.pjt"
+Source="/home/houstar/ezsdk/component-sources/bios_6_33_05_46/packages/ti/sysbios/syncs/package/ti.sysbios.syncs.pjt"
+Source="/home/houstar/ezsdk/component-sources/bios_6_33_05_46/packages/ti/sysbios/family/c62/package/ti.sysbios.family.c62.pjt"
+Source="/home/houstar/ezsdk/component-sources/bios_6_33_05_46/packages/ti/sysbios/timers/dmtimer/package/ti.sysbios.timers.dmtimer.pjt"
+Source="/home/houstar/ezsdk/component-sources/bios_6_33_05_46/packages/ti/sysbios/family/c64p/ti81xx/package/ti.sysbios.family.c64p.ti81xx.pjt"
+Source="/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/utils/osalsupport/package/ti.sdo.fc.utils.osalsupport.pjt"
+Source="/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/dskt2/package/ti.sdo.fc.dskt2.pjt"
+Source="/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/ires/nullresource/package/ti.sdo.fc.ires.nullresource.pjt"
+Source="/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/rman/package/ti.sdo.fc.rman.pjt"
+Source="/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/memutils/package/ti.sdo.fc.memutils.pjt"
+Source="/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/utils/package/ti.sdo.fc.utils.pjt"
+Source="/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/dman3/package/ti.sdo.fc.dman3.pjt"
+Source="/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/utils/xdm/package/ti.sdo.ce.utils.xdm.pjt"
+Source="/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/node/package/ti.sdo.ce.node.pjt"
+Source="/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/acpy3/package/ti.sdo.fc.acpy3.pjt"
+Source="/home/houstar/ezsdk/component-sources/bios_6_33_05_46/packages/ti/sysbios/utils/package/ti.sysbios.utils.pjt"
+Source="/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/osal/package/ti.sdo.ce.osal.pjt"
+Source="/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/osal/bios/package/ti.sdo.ce.osal.bios.pjt"
+Source="/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/alg/package/ti.sdo.ce.alg.pjt"
+Source="/home/houstar/ezsdk/component-sources/ipc_1_24_03_32/packages/ti/sdo/ipc/package/ti.sdo.ipc.pjt"
+Source="/home/houstar/ezsdk/component-sources/ipc_1_24_03_32/packages/ti/sdo/ipc/heaps/package/ti.sdo.ipc.heaps.pjt"
+Source="/home/houstar/ezsdk/component-sources/ipc_1_24_03_32/packages/ti/sdo/ipc/family/ti81xx/package/ti.sdo.ipc.family.ti81xx.pjt"
+Source="/home/houstar/ezsdk/component-sources/ipc_1_24_03_32/packages/ti/sdo/ipc/notifyDrivers/package/ti.sdo.ipc.notifyDrivers.pjt"
+Source="/home/houstar/ezsdk/component-sources/ipc_1_24_03_32/packages/ti/sdo/ipc/transports/package/ti.sdo.ipc.transports.pjt"
+Source="/home/houstar/ezsdk/component-sources/ipc_1_24_03_32/packages/ti/sdo/ipc/nsremote/package/ti.sdo.ipc.nsremote.pjt"
+Source="/home/houstar/ezsdk/component-sources/syslink_2_20_02_20/packages/ti/syslink/ipc/rtos/package/ti.syslink.ipc.rtos.pjt"
+Source="/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/ipc/bios/package/ti.sdo.ce.ipc.bios.pjt"
+Source="/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/package/ti.sdo.ce.pjt"
+Source="/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/video/package/ti.sdo.ce.video.pjt"
+Source="/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/codecs/viddec_copy/package/ti.sdo.ce.examples.codecs.viddec_copy.pjt"
+Source="/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/codecs/videnc_copy/package/ti.sdo.ce.examples.codecs.videnc_copy.pjt"
+Source="/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/speech/package/ti.sdo.ce.speech.pjt"
+Source="/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/codecs/sphenc_copy/package/ti.sdo.ce.examples.codecs.sphenc_copy.pjt"
+Source="/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/codecs/sphdec_copy/package/ti.sdo.ce.examples.codecs.sphdec_copy.pjt"
+Source="/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/image/package/ti.sdo.ce.image.pjt"
+Source="/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/codecs/imgdec_copy/package/ti.sdo.ce.examples.codecs.imgdec_copy.pjt"
+Source="/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/codecs/imgenc_copy/package/ti.sdo.ce.examples.codecs.imgenc_copy.pjt"
+Source="/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/audio/package/ti.sdo.ce.audio.pjt"
+Source="/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/codecs/audenc_copy/package/ti.sdo.ce.examples.codecs.audenc_copy.pjt"
+Source="/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/codecs/speexenc/package/ti.sdo.ce.examples.codecs.speexenc.pjt"
+Source="/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/extensions/scale/package/ti.sdo.ce.examples.extensions.scale.pjt"
+Source="/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/codecs/scale/package/ti.sdo.ce.examples.codecs.scale.pjt"
+Source="/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/video3/package/ti.sdo.ce.video3.pjt"
+Source="/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/video2/package/ti.sdo.ce.video2.pjt"
+Source="/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/video1/package/ti.sdo.ce.video1.pjt"
+Source="/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/image1/package/ti.sdo.ce.image1.pjt"
+Source="/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/speech1/package/ti.sdo.ce.speech1.pjt"
+Source="/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/audio1/package/ti.sdo.ce.audio1.pjt"
+Source="/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/vidtranscode/package/ti.sdo.ce.vidtranscode.pjt"
+Source="/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/vidanalytics/package/ti.sdo.ce.vidanalytics.pjt"
+Source="/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/universal/package/ti.sdo.ce.universal.pjt"
+Source="/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/video2/split/package/ti.sdo.ce.video2.split.pjt"
+Source="/home/houstar/ezsdk/component-sources/ipc_1_24_03_32/packages/ti/sdo/ipc/gates/package/ti.sdo.ipc.gates.pjt"
+Source="/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/servers/all_codecs/package/ti.sdo.ce.examples.servers.all_codecs.pjt"
+
+["/home/houstar/ezsdk/component-sources/ipc_1_24_03_32/packages/ti/sdo/ipc/family/package/ti.sdo.ipc.family.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/ipc_1_24_03_32/packages/ti/sdo/ipc/interfaces/package/ti.sdo.ipc.interfaces.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/global/package/ti.sdo.ce.global.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/global/package/ti.sdo.fc.global.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/auddec_copy/package/ti.xdais.dm.examples.auddec_copy.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/viddec3_copy/package/ti.xdais.dm.examples.viddec3_copy.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/viddec2_copy/package/ti.xdais.dm.examples.viddec2_copy.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/videnc1_copy/package/ti.xdais.dm.examples.videnc1_copy.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/imgdec1_copy/package/ti.xdais.dm.examples.imgdec1_copy.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/imgenc1_copy/package/ti.xdais.dm.examples.imgenc1_copy.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/sphenc1_copy/package/ti.xdais.dm.examples.sphenc1_copy.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/sphdec1_copy/package/ti.xdais.dm.examples.sphdec1_copy.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/auddec1_copy/package/ti.xdais.dm.examples.auddec1_copy.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/audenc1_copy/package/ti.xdais.dm.examples.audenc1_copy.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/g711/package/ti.xdais.dm.examples.g711.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/vidtranscode_copy/package/ti.xdais.dm.examples.vidtranscode_copy.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/vidanalytics_copy/package/ti.xdais.dm.examples.vidanalytics_copy.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/universal_copy/package/ti.xdais.dm.examples.universal_copy.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/viddec1_copy/package/ti.xdais.dm.examples.viddec1_copy.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/viddec2split_copy/package/ti.xdais.dm.examples.viddec2split_copy.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/videnc2_copy/package/ti.xdais.dm.examples.videnc2_copy.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/utils/syscbuf/package/ti.sdo.ce.utils.syscbuf.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/bios_6_33_05_46/packages/ti/sysbios/package/ti.sysbios.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/bios_6_33_05_46/packages/ti/sysbios/hal/package/ti.sysbios.hal.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/bios_6_33_05_46/packages/ti/sysbios/knl/package/ti.sysbios.knl.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/bios_6_33_05_46/packages/ti/sysbios/family/c64p/package/ti.sysbios.family.c64p.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/bios_6_33_05_46/packages/ti/sysbios/gates/package/ti.sysbios.gates.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/bios_6_33_05_46/packages/ti/sysbios/heaps/package/ti.sysbios.heaps.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/bios_6_33_05_46/packages/ti/sysbios/xdcruntime/package/ti.sysbios.xdcruntime.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/ipc_1_24_03_32/packages/ti/sdo/utils/package/ti.sdo.utils.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/bios_6_33_05_46/packages/ti/sysbios/syncs/package/ti.sysbios.syncs.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/bios_6_33_05_46/packages/ti/sysbios/family/c62/package/ti.sysbios.family.c62.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/bios_6_33_05_46/packages/ti/sysbios/timers/dmtimer/package/ti.sysbios.timers.dmtimer.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/bios_6_33_05_46/packages/ti/sysbios/family/c64p/ti81xx/package/ti.sysbios.family.c64p.ti81xx.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/utils/osalsupport/package/ti.sdo.fc.utils.osalsupport.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/dskt2/package/ti.sdo.fc.dskt2.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/ires/nullresource/package/ti.sdo.fc.ires.nullresource.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/rman/package/ti.sdo.fc.rman.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/memutils/package/ti.sdo.fc.memutils.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/utils/package/ti.sdo.fc.utils.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/dman3/package/ti.sdo.fc.dman3.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/utils/xdm/package/ti.sdo.ce.utils.xdm.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/node/package/ti.sdo.ce.node.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/acpy3/package/ti.sdo.fc.acpy3.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/bios_6_33_05_46/packages/ti/sysbios/utils/package/ti.sysbios.utils.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/osal/package/ti.sdo.ce.osal.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/osal/bios/package/ti.sdo.ce.osal.bios.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/alg/package/ti.sdo.ce.alg.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/ipc_1_24_03_32/packages/ti/sdo/ipc/package/ti.sdo.ipc.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/ipc_1_24_03_32/packages/ti/sdo/ipc/heaps/package/ti.sdo.ipc.heaps.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/ipc_1_24_03_32/packages/ti/sdo/ipc/family/ti81xx/package/ti.sdo.ipc.family.ti81xx.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/ipc_1_24_03_32/packages/ti/sdo/ipc/notifyDrivers/package/ti.sdo.ipc.notifyDrivers.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/ipc_1_24_03_32/packages/ti/sdo/ipc/transports/package/ti.sdo.ipc.transports.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/ipc_1_24_03_32/packages/ti/sdo/ipc/nsremote/package/ti.sdo.ipc.nsremote.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/syslink_2_20_02_20/packages/ti/syslink/ipc/rtos/package/ti.syslink.ipc.rtos.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/ipc/bios/package/ti.sdo.ce.ipc.bios.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/package/ti.sdo.ce.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/video/package/ti.sdo.ce.video.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/codecs/viddec_copy/package/ti.sdo.ce.examples.codecs.viddec_copy.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/codecs/videnc_copy/package/ti.sdo.ce.examples.codecs.videnc_copy.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/speech/package/ti.sdo.ce.speech.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/codecs/sphenc_copy/package/ti.sdo.ce.examples.codecs.sphenc_copy.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/codecs/sphdec_copy/package/ti.sdo.ce.examples.codecs.sphdec_copy.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/image/package/ti.sdo.ce.image.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/codecs/imgdec_copy/package/ti.sdo.ce.examples.codecs.imgdec_copy.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/codecs/imgenc_copy/package/ti.sdo.ce.examples.codecs.imgenc_copy.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/audio/package/ti.sdo.ce.audio.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/codecs/audenc_copy/package/ti.sdo.ce.examples.codecs.audenc_copy.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/codecs/speexenc/package/ti.sdo.ce.examples.codecs.speexenc.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/extensions/scale/package/ti.sdo.ce.examples.extensions.scale.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/codecs/scale/package/ti.sdo.ce.examples.codecs.scale.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/video3/package/ti.sdo.ce.video3.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/video2/package/ti.sdo.ce.video2.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/video1/package/ti.sdo.ce.video1.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/image1/package/ti.sdo.ce.image1.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/speech1/package/ti.sdo.ce.speech1.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/audio1/package/ti.sdo.ce.audio1.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/vidtranscode/package/ti.sdo.ce.vidtranscode.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/vidanalytics/package/ti.sdo.ce.vidanalytics.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/universal/package/ti.sdo.ce.universal.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/video2/split/package/ti.sdo.ce.video2.split.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/ezsdk/component-sources/ipc_1_24_03_32/packages/ti/sdo/ipc/gates/package/ti.sdo.ipc.gates.pjt" Settings]
+ExcludeFromBuild=true
+
+["/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/servers/all_codecs/package/ti.sdo.ce.examples.servers.all_codecs.pjt" Settings]
+ExcludeFromBuild=true
+
+
+;
+;  Specify the include path so CCS can find source files; without this 
+;  CCS gets very confused by files with the same name in different 
+;  directories.
+;
+["Compiler" Settings: "Executable"]
+Options=-i"/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/servers/all_codecs/../../../../../.." -i"/home/houstar/ezsdk//component-sources/xdctools_3_23_03_53/packages" -i"/home/houstar/ezsdk/component-sources/xdais_7_22_00_03/packages" -i"/home/houstar/ezsdk/component-sources/bios_6_33_05_46/packages" -i"/home/houstar/ezsdk/component-sources/linuxutils_3_22_00_02/packages" -i"/home/houstar/ezsdk/component-sources/syslink_2_20_02_20/packages" -i"/home/houstar/ezsdk/component-sources/osal_1_22_01_09/packages" -i"/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages" -i"/home/houstar/ezsdk/component-sources/edma3lld_02_11_05_02/packages" -i"/home/houstar/ezsdk/component-sources/ipc_1_24_03_32/packages" -i"/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06//packages" -i"/home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/packages" -i"/home/houstar/DM8168/code/codec_engine/example" 
+
+[External Makefile]
+ExtMakefile=../../package.bld
+
+;
+;  Name the source files that should show up in the project window; i.e., 
+;  the files we expect the user to edit within CCS.
+;
+[Source Files]
+Source="../../package.bld"
+Source="bin/ti_platforms_evmTI816X/all_DSP_xe674.c"
+Source="../../all_syslink.cfg"
+
+["../../package.bld" Settings: "Executable"]
+UseCustomBuild=true
+CustomBuildCmd=/home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/xdc bin/ti_platforms_evmTI816X/all_DSP.xe674
+
+; if no custom "clean" command is specified, rebuild all deletes the
+; following files before running the build command above.  
+;
+CustomBuildOutput="bin/ti_platforms_evmTI816X/all_DSP.xe674"
+
+;  Don't use 'xdc clean' command here because this also deletes the project
+;  file that is currently open.  This causes the command to hang waiting for
+;  CCS to close the file, which it doesn't do (of course).
+;
+;  Instead we only clean out those files associated with the target used to
+;  build the executable.
+;
+CustomCleanCmd=/home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/xdc clean,e674
+;
+;  Always run the xdc command since this command is the one that tracks
+;  dependencies
+;
+Run=Always
+
+;
+;  We need to exclude these from the build or provide a command to run from
+;  the directory containing the file; otherwise CCS complains about not
+;  being able to "build" this file.  Adding a custom build step causes CCS
+;  to run this *in addition* to the project build above; thus we do nothing
+;
+["bin/ti_platforms_evmTI816X/all_DSP_xe674.c" Settings: "Executable"]
+ExcludeFromBuild=true
+
+["../../all_syslink.cfg" Settings: "Executable"]
+ExcludeFromBuild=true

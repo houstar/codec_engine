@@ -1,0 +1,10 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+[Project Settings]
+ProjectName="ti.xdais.dm.examples.universal_copy"
+ProjectType=External
+CPUFamily=TMS320C67XX
+Tool="CustomBuilder"
+Config="Package"
+[Source Files]
+Source="../package/package_ti.xdais.dm.examples.universal_copy.c"
+Source="../universal_copy.c"

@@ -1,0 +1,9 @@
+package/lib/lib/debug/vidtranscode_copy/package/package_ti.xdais.dm.examples.vidtranscode_copy.oe674: package/package_ti.xdais.dm.examples.vidtranscode_copy.c /home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/packages/xdc/std.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stdarg.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stddef.h /home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/packages/ti/targets/elf/std.h /home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/packages/ti/targets/select.h /home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/packages/ti/targets/std.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stdint.h 
+package/package_ti.xdais.dm.examples.vidtranscode_copy.c:
+/home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/packages/xdc/std.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stdarg.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stddef.h:
+/home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/packages/ti/targets/elf/std.h:
+/home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/packages/ti/targets/select.h:
+/home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/packages/ti/targets/std.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stdint.h:

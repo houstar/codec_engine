@@ -1,0 +1,186 @@
+include ${EZSDK}/Rules.make
+
+EXAMPLES_ROOTDIR := $(CURDIR)/../../../../../..
+
+include $(EXAMPLES_ROOTDIR)/xdcpaths.mak
+
+# add the examples directory itself to the list of paths to packages
+XDC_PATH := $(EXAMPLES_ROOTDIR);$(XDC_PATH)
+
+include $(EXAMPLES_ROOTDIR)/buildutils/xdcrules.mak
+#
+#  @(#) ti.sdo.ce.examples.apps.audio_copy; 1, 0, 0,1; 2-24-2012 19:27:46; /db/atree/library/trees/ce/ce-t06/src/ xlibrary
+
+#
+
+CC		:= $(CSTOOL_PREFIX)gcc
+CXX		:= $(CSTOOL_PREFIX)g++
+AR		:= $(CSTOOL_PREFIX)ar
+RANLIB	:= $(CSTOOL_PREFIX)ranlib
+
+
+TARGET 		= ArmLiveMedia
+
+ 
+INCLUDES	= -I../common/AbleMp4lib \
+	 -I../common/MP4FileReader \
+	 -I../ThirdParty/tinyxml \
+	 -I../ThirdParty/mpeg4ip-1.5.0.1 \
+	 -I../ThirdParty/mpeg4ip-1.5.0.1/include \
+	 -I../ThirdParty/mpeg4ip-1.5.0.1/lib/mp4v2 \
+	 -I../ThirdParty/mpeg4ip-1.5.0.1/lib/mp4av \
+	 -I../ThirdParty/mpeg4ip-1.5.0.1/lib.avi \
+	 -I../ThirdParty/mpeg4ip-1.5.0.1/common/video/libmpeg32 \
+	 -I../ThirdParty/mpeg4ip-1.5.0.1/lib/ismacryp \
+	 -I../ThirdParty/mpeg4ip-1.5.0.1/lib/mpeg2ps \
+	 -I../ThirdParty/HikVision/incCn \
+	 -I../ThirdParty/mtg \
+	 -I../common/ACCHandle \
+	 -I${EZSDK}component-sources/xdctools_3_23_03_53/packages \
+	 -I${EZSDK}component-sources/xdctools_3_23_03_53/packages/xdc \
+	 -I${EZSDK}component-sources/omx_05_02_00_48/src \
+	 -I${EZSDK}component-sources/ipc_1_24_03_32/packages \
+	 -I${EZSDK}component-sources/omx_05_02_00_48/include \
+	 -I${EZSDK}component-sources/slog_04_00_00_02/src \
+	 -I${EZSDK}component-sources/syslink_2_20_02_20/packages \
+	 -I${EZSDK}component-sources/bios_6_33_05_46/packages \
+	 -I${EZSDK}component-sources/osal_1_22_01_09/packages \
+	 -I${EZSDK}component-sources/xdais_7_22_00_03/packages \
+	 -I${EZSDK}component-sources/uia_1_01_01_14/packages \
+	 -I${EZSDK}component-sources/framework_components_3_22_01_07/packages \
+	 -I${EZSDK}component-sources/omx_05_02_00_48/src/ti/omx/domx \
+	 -I${EZSDK}component-sources/codec_engine_3_22_01_06/packages \
+	 -I${EZSDK}component-sources/c674x_aaclcenc_01_00_01_00_elf/packages \
+	 -I${EZSDK}linux-devkit/arm-none-linux-gnueabi/usr/include \
+	 -I${HOME}/ezsdk_dm816x-evm/arm-2009q1 \
+	 -I${EZSDK}/linux-devkit/arm-none-linux-gnueabi/usr/src/linux-2.6.37-psp04.04.00.01-headers/include \
+	 -I${EZSDK}linux-devkit/arm-none-linux-gnueabi/usr/include \
+	 -I${EZSDK}linux-devkit/arm-none-linux-gnueabi/usr/include/cairo \
+	 -I${EZSDK}linux-devkit/arm-none-linux-gnueabi/usr/include/alsa
+                             
+LIBS 		= 
+#CFLAGS 		= -Wall -Werror -g armv5t
+#CFLAGS 		= -Wall  -g -x c -Wunused -Wall -g -fPIC -fno-strict-aliasing -MD 
+#CFLAGS 		=  -Wunused -Wall -g -fPIC -fno-strict-aliasing -MD -MF 
+CFLAGS 		=  -Wunused -Wall -g -fPIC -fno-strict-aliasing -MD -MF \
+-march=armv5t -Dfar= -D_DEBUG_=1 -DMULTICHANNEL_OPT=1 \
+-Dxdc_target_name__=GCArmv5T -Dxdc_target_types__=gnu/targets/arm/std.h \
+-Dxdc_bld__profile_debug  -Dxdc_bld__vers_1_0_4_3_3  \
+-DGlobal_appTerminate=0 -D_VIDEO_M3_DYNAMIC_CONFIG \
+-DGlobal_GrpxDssMsgHeapId=6 -DGlobal_TilerHeapId=7 \
+-D_LOCAL_CORE_a8host_     \
+-D_REMOTE_omxbase_ -D_REMOTE_venc_ -D_REMOTE_vdec_ \
+-D_REMOTE_server_ -D_REMOTE_scheduler_ \
+-D_REMOTE_domx_ -D_REMOTE_domx_delegates_shmem_ -D_REMOTE_omxcore_ \
+-D_REMOTE_omxbase_ -D_REMOTE_vfcc_ -D_REMOTE_vfpc_ \
+-D_REMOTE_vfdc_ -D_REMOTE_ctrl_ -D_REMOTE_domx_ \
+-D_REMOTE_domx_ -D_REMOTE_domx_delegates_shmem_ \
+-D_REMOTE_omxcore_ -D_BUILD_omxbase_ \
+-D_BUILD_venc_ -D_BUILD_vdec_ -D_BUILD_server_ -D_BUILD_scheduler_ -D_BUILD_domx_ \
+-D_BUILD_domx_delegates_shmem_ -D_BUILD_omxcore_ -D_BUILD_omxbase_ \
+-D_BUILD_domx_ -D_BUILD_domx_delegates_shmem_ -D_BUILD_omxcore_  \
+-D_BUILD_domx_delegates_shmem_ -D_BUILD_omxcore_ \
+-D_BUILD_omxbase_ -D_BUILD_vfcc_ -D_BUILD_vfpc_ \
+-D_BUILD_vfdc_ -D_BUILD_ctrl_ -D_BUILD_domx_ \
+-D_BUILD_domx_delegates_shmem_ -D_BUILD_omxcore_  \
+-DMAX_RESOLUTION_HD \
+-DDOMX_CORE_REMOTEDUCATIHOST -DVC_APPS -DCODEC_H264ENC -DCODEC_H264DEC \
+-DTI_816X_BUILD \
+-DPLATFORM_EVM_SI -DADD_FBDEV_SUPPORT
+LINKFLAGS 	= -static -Wl
+
+
+C_SOURCES 	= $(wildcard *.c ./utils/*.c ./KVideo/*.c ./Command/*.c ./core/*.c ./liveCourse/*.c)
+C_OBJS 		= $(patsubst %.c, %.o, $(C_SOURCES))
+CPP_SOURCES 	= $(wildcard *.cpp ./utils/*.cpp ./KVideo/*.cpp ./Command/*.cpp ./core/*.cpp ./liveCourse/*.cpp)
+CPP_OBJS 	= $(patsubst %.cpp, %.o, $(CPP_SOURCES))
+
+.c.o:
+	$(CC) -c -o $*.o $(CFLAGS) $(INCLUDES) $*.c
+.cpp.o:
+	$(CXX) -c -o $*.o $(CFLAGS) $(INCLUDES) $*.cpp
+
+#$(CXX)  -o $@ $(LINKFLAGS) $^ \
+.PHONY:$(TARGET)
+$(TARGET):$(CPP_OBJS) $(C_OBJS) 
+	$(CXX)  -o $@   $^ \
+		-Xlinker --start-group \
+		../ThirdParty/tinyxml/libtinyxml.a \
+		../common/AbleMp4lib/libAblemp4.a \
+		../common/MP4FileReader/libMP4FileReader.a \
+		../ThirdParty/mpeg4ip-1.5.0.1/install/libismacryp.a \
+		../ThirdParty/mpeg4ip-1.5.0.1/install/libmp4.a \
+		../ThirdParty/mpeg4ip-1.5.0.1/install/libmp4av.a \
+		../ThirdParty/mpeg4ip-1.5.0.1/install/libmpeg4ip_gnu.a \
+		../ThirdParty/mpeg4ip-1.5.0.1/install/libmp4v2.a \
+		../common/ACCHandle/libACCHandle.a \
+		${EZSDK}component-sources/omx_05_02_00_48/lib/omxcore.av5T \
+		${EZSDK}component-sources/omx_05_02_00_48/lib/memcfg.av5T \
+		${EZSDK}component-sources/omx_05_02_00_48/lib/domx.av5T \
+		${EZSDK}component-sources/omx_05_02_00_48/lib/domx_delegates_shmem.av5T \
+		${EZSDK}component-sources/omx_05_02_00_48/lib/timmosal.av5T \
+		${EZSDK}component-sources/omx_05_02_00_48/lib/omxcfg.av5T \
+		${EZSDK}component-sources/osal_1_22_01_09/packages/linuxdist/build/lib/osal.a \
+		${EZSDK}component-sources/osal_1_22_01_09/packages/linuxdist/cstubs/lib/cstubs.a \
+		${EZSDK}component-sources/framework_components_3_22_01_07/packages/ti/sdo/rcm/lib/debug/rcm_syslink.av5T \
+		${EZSDK}component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/memutils/lib/release/memutils.av5T \
+		${EZSDK}component-sources/osal_1_22_01_09/packages/ti/sdo/xdcruntime/linux/lib/debug/osal_linux_470.av5T \
+		${EZSDK}component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/global/lib/debug/fcsettings.av5T \
+		${EZSDK}component-sources/syslink_2_20_02_20/packages/ti/syslink/lib/syslink.a_debug \
+		${EZSDK}component-sources/linuxutils_3_22_00_02/packages/ti/sdo/linuxutils/cmem/lib/cmem.a470MV \
+		${EZSDK}component-sources/uia_1_01_01_14/packages/ti/uia/linux/lib/servicemgr.a \
+		-Wl,--whole-archive -Wl,--no-whole-archive -lc \
+		-rdynamic -ldl -lpthread -lrt \
+		-Xlinker --end-group \
+		-lasound -lcairo	-lpng	-lfreetype	-lfontconfig	\
+		-lXrender	-lX11	-lxcb	-lpixman-1	-lexpat	-lXau	\
+		-lpthread-stubs	-lz \
+		-L${EZSDK}linux-devkit/arm-none-linux-gnueabi/usr/lib/ 
+		             
+clean:
+	rm -f $(CPP_OBJS) $(C_OBJS)
+	rm -f $(TARGET)
+
+install: $(TARGET)
+	cp $(TARGET) $(PREFIX_BIN)
+
+uninstall:
+	rm -f $(PREFIX)/$(PREFIX_BIN)
+
+rebuild: clean compile 
+
+
+bin/$(PLAT)/$(PROFILE)/$(PROGRAM).x$(SUFFIX):$(CPP_OBJS) $(C_OBJS) 
+	$(CXX)  -o $@   $^ \
+		-Xlinker --start-group \
+		$(EXAMPLES_ROOTDIR)/../../ThirdParty/tinyxml/libtinyxml.a \
+		$(EXAMPLES_ROOTDIR)/../../common/AbleMp4lib/libAblemp4.a \
+		$(EXAMPLES_ROOTDIR)/../../common/MP4FileReader/libMP4FileReader.a \
+		$(EXAMPLES_ROOTDIR)/../../ThirdParty/mpeg4ip-1.5.0.1/install/libismacryp.a \
+		$(EXAMPLES_ROOTDIR)/../../ThirdParty/mpeg4ip-1.5.0.1/install/libmp4.a \
+		$(EXAMPLES_ROOTDIR)/../../ThirdParty/mpeg4ip-1.5.0.1/install/libmp4av.a \
+		$(EXAMPLES_ROOTDIR)/../../ThirdParty/mpeg4ip-1.5.0.1/install/libmpeg4ip_gnu.a \
+		$(EXAMPLES_ROOTDIR)/../../ThirdParty/mpeg4ip-1.5.0.1/install/libmp4v2.a \
+		$(EXAMPLES_ROOTDIR)/../../common/ACCHandle/libACCHandle.a \
+		${EZSDK}component-sources/omx_05_02_00_48/lib/omxcore.av5T \
+		${EZSDK}component-sources/omx_05_02_00_48/lib/memcfg.av5T \
+		${EZSDK}component-sources/omx_05_02_00_48/lib/domx.av5T \
+		${EZSDK}component-sources/omx_05_02_00_48/lib/domx_delegates_shmem.av5T \
+		${EZSDK}component-sources/omx_05_02_00_48/lib/timmosal.av5T \
+		${EZSDK}component-sources/omx_05_02_00_48/lib/omxcfg.av5T \
+		${EZSDK}component-sources/osal_1_22_01_09/packages/linuxdist/build/lib/osal.a \
+		${EZSDK}component-sources/osal_1_22_01_09/packages/linuxdist/cstubs/lib/cstubs.a \
+		${EZSDK}component-sources/framework_components_3_22_01_07/packages/ti/sdo/rcm/lib/debug/rcm_syslink.av5T \
+		${EZSDK}component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/memutils/lib/release/memutils.av5T \
+		${EZSDK}component-sources/osal_1_22_01_09/packages/ti/sdo/xdcruntime/linux/lib/debug/osal_linux_470.av5T \
+		${EZSDK}component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/global/lib/debug/fcsettings.av5T \
+		${EZSDK}component-sources/syslink_2_20_02_20/packages/ti/syslink/lib/syslink.a_debug \
+		${EZSDK}component-sources/linuxutils_3_22_00_02/packages/ti/sdo/linuxutils/cmem/lib/cmem.a470MV \
+		${EZSDK}component-sources/uia_1_01_01_14/packages/ti/uia/linux/lib/servicemgr.a \
+		-Wl,--whole-archive -Wl,--no-whole-archive -lc \
+		-rdynamic -ldl -lpthread -lrt \
+		-Xlinker --end-group \
+		-lasound -lcairo	-lpng	-lfreetype	-lfontconfig	\
+		-lXrender	-lX11	-lxcb	-lpixman-1	-lexpat	-lXau	\
+		-lpthread-stubs	-lz \
+		-L${EZSDK}linux-devkit/arm-none-linux-gnueabi/usr/lib/ 

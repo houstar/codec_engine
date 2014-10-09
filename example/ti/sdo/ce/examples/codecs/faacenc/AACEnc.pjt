@@ -1,0 +1,42 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectDir="C:\AudioLib\thirtypart\aac\libfaac\"
+ProjectType=Library
+CPUFamily=TMS320C67XX
+Tool="Archiver"
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="DspBiosBuilder"
+Tool="XDC"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="aacquant.c"
+Source="backpred.c"
+Source="bitstream.c"
+Source="channels.c"
+Source="faacenc.c"
+Source="fft.c"
+Source="filtbank.c"
+Source="frame.c"
+Source="huffman.c"
+Source="ltp.c"
+Source="midside.c"
+Source="psychkni.c"
+Source="tns.c"
+Source="util.c"
+
+["Archiver" Settings: "Debug"]
+Options=-r -o".\Debug\AACEnc.lib"
+
+["Archiver" Settings: "Release"]
+Options=-r -o".\Release\AACEnc.lib"
+
+["Compiler" Settings: "Debug"]
+Options=-g -pdsw225 -fr"$(Proj_dir)\Debug" -d"_DEBUG" -mv67p
+
+["Compiler" Settings: "Release"]
+Options=-pdsw225 -o3 -fr"$(Proj_dir)\Release" -mf5 -mv6700
+

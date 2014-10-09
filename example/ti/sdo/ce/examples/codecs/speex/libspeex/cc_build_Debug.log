@@ -1,0 +1,63 @@
+----------------------------  libspeex.pjt - Debug  ----------------------------
+[bits.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/speex/libspeex/Debug" -i"../" -i"../include" -i"../include/speex" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -d"USE_SMALLFT" -mv6400 -@"Debug.lkf" "bits.c"
+
+[cb_search.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/speex/libspeex/Debug" -i"../" -i"../include" -i"../include/speex" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -d"USE_SMALLFT" -mv6400 -@"Debug.lkf" "cb_search.c"
+"cb_search.c", line 527: warning: variable "shape_cb_size" was set but never used
+
+[exc_10_16_table.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/speex/libspeex/Debug" -i"../" -i"../include" -i"../include/speex" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -d"USE_SMALLFT" -mv6400 -@"Debug.lkf" "exc_10_16_table.c"
+
+[exc_10_32_table.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/speex/libspeex/Debug" -i"../" -i"../include" -i"../include/speex" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -d"USE_SMALLFT" -mv6400 -@"Debug.lkf" "exc_10_32_table.c"
+
+[exc_20_32_table.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/speex/libspeex/Debug" -i"../" -i"../include" -i"../include/speex" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -d"USE_SMALLFT" -mv6400 -@"Debug.lkf" "exc_20_32_table.c"
+
+[exc_5_256_table.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/speex/libspeex/Debug" -i"../" -i"../include" -i"../include/speex" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -d"USE_SMALLFT" -mv6400 -@"Debug.lkf" "exc_5_256_table.c"
+
+[exc_5_64_table.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/speex/libspeex/Debug" -i"../" -i"../include" -i"../include/speex" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -d"USE_SMALLFT" -mv6400 -@"Debug.lkf" "exc_5_64_table.c"
+
+[exc_8_128_table.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/speex/libspeex/Debug" -i"../" -i"../include" -i"../include/speex" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -d"USE_SMALLFT" -mv6400 -@"Debug.lkf" "exc_8_128_table.c"
+
+[filters.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/speex/libspeex/Debug" -i"../" -i"../include" -i"../include/speex" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -d"USE_SMALLFT" -mv6400 -@"Debug.lkf" "filters.c"
+
+[gain_table.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/speex/libspeex/Debug" -i"../" -i"../include" -i"../include/speex" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -d"USE_SMALLFT" -mv6400 -@"Debug.lkf" "gain_table.c"
+
+[gain_table_lbr.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/speex/libspeex/Debug" -i"../" -i"../include" -i"../include/speex" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -d"USE_SMALLFT" -mv6400 -@"Debug.lkf" "gain_table_lbr.c"
+
+[lpc.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/speex/libspeex/Debug" -i"../" -i"../include" -i"../include/speex" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -d"USE_SMALLFT" -mv6400 -@"Debug.lkf" "lpc.c"
+
+[lsp.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/speex/libspeex/Debug" -i"../" -i"../include" -i"../include/speex" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -d"USE_SMALLFT" -mv6400 -@"Debug.lkf" "lsp.c"
+
+[lsp_tables_nb.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/speex/libspeex/Debug" -i"../" -i"../include" -i"../include/speex" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -d"USE_SMALLFT" -mv6400 -@"Debug.lkf" "lsp_tables_nb.c"
+
+[ltp.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/speex/libspeex/Debug" -i"../" -i"../include" -i"../include/speex" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -d"USE_SMALLFT" -mv6400 -@"Debug.lkf" "ltp.c"
+
+[modes.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/speex/libspeex/Debug" -i"../" -i"../include" -i"../include/speex" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -d"USE_SMALLFT" -mv6400 -@"Debug.lkf" "modes.c"
+
+[modes_wb.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/speex/libspeex/Debug" -i"../" -i"../include" -i"../include/speex" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -d"USE_SMALLFT" -mv6400 -@"Debug.lkf" "modes_wb.c"
+
+[nb_celp.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/speex/libspeex/Debug" -i"../" -i"../include" -i"../include/speex" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -d"USE_SMALLFT" -mv6400 -@"Debug.lkf" "nb_celp.c"
+"nb_celp.c", line 1303: warning: variable "sp" was set but never used
+"nb_celp.c", line 1505: warning: variable "exc" was set but never used
+
+[quant_lsp.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/speex/libspeex/Debug" -i"../" -i"../include" -i"../include/speex" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -d"USE_SMALLFT" -mv6400 -@"Debug.lkf" "quant_lsp.c"
+
+[sb_celp.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/speex/libspeex/Debug" -i"../" -i"../include" -i"../include/speex" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -d"USE_SMALLFT" -mv6400 -@"Debug.lkf" "sb_celp.c"
+
+[speex.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/speex/libspeex/Debug" -i"../" -i"../include" -i"../include/speex" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -d"USE_SMALLFT" -mv6400 -@"Debug.lkf" "speex.c"
+
+[speex_callbacks.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/speex/libspeex/Debug" -i"../" -i"../include" -i"../include/speex" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -d"USE_SMALLFT" -mv6400 -@"Debug.lkf" "speex_callbacks.c"
+
+[speex_header.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/speex/libspeex/Debug" -i"../" -i"../include" -i"../include/speex" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -d"USE_SMALLFT" -mv6400 -@"Debug.lkf" "speex_header.c"
+
+[vbr.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/speex/libspeex/Debug" -i"../" -i"../include" -i"../include/speex" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -d"USE_SMALLFT" -mv6400 -@"Debug.lkf" "vbr.c"
+"vbr.c", line 129: warning: variable "va" was set but never used
+
+[vq.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/speex/libspeex/Debug" -i"../" -i"../include" -i"../include/speex" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -d"USE_SMALLFT" -mv6400 -@"Debug.lkf" "vq.c"
+
+[window.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/speex/libspeex/Debug" -i"../" -i"../include" -i"../include/speex" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -d"USE_SMALLFT" -mv6400 -@"Debug.lkf" "window.c"
+
+[Archiving...] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\ar6x" @"Debug.lkf"
+  ==>  new archive 'C:\AudioLib\thirtypart\speex\libspeex\Debug\libspeex.lib'
+  ==>  building archive 'C:\AudioLib\thirtypart\speex\libspeex\Debug\libspeex.lib'
+
+Build Complete,
+  0 Errors, 4 Warnings, 0 Remarks.

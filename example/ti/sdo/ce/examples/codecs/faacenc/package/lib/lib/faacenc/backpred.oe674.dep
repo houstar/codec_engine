@@ -1,0 +1,21 @@
+package/lib/lib/faacenc/backpred.oe674: backpred.c /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/math.h ./frame.h ./coder.h ./channels.h ./backpred.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/float.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/access.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/elfnames.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/mathf.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/mathl.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/unaccess.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/inttypes.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stdint.h ./psych.h ./aacquant.h ./fft.h ./faaccfg.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/linkage.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/_fmt_specifier.h 
+backpred.c:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/math.h:
+./frame.h:
+./coder.h:
+./channels.h:
+./backpred.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/float.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/access.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/elfnames.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/mathf.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/mathl.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/unaccess.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/inttypes.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stdint.h:
+./psych.h:
+./aacquant.h:
+./fft.h:
+./faaccfg.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/linkage.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/_fmt_specifier.h:

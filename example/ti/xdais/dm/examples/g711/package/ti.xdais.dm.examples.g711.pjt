@@ -1,0 +1,12 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+[Project Settings]
+ProjectName="ti.xdais.dm.examples.g711"
+ProjectType=External
+CPUFamily=TMS320C67XX
+Tool="CustomBuilder"
+Config="Package"
+[Source Files]
+Source="../package/package_ti.xdais.dm.examples.g711.c"
+Source="../g711enc_sun_ialg.c"
+Source="../g711dec_sun_ialg.c"
+Source="../g711_sun_internal.c"

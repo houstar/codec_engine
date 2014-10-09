@@ -1,0 +1,427 @@
+/*
+ * Do not modify this file; it is automatically generated from the template
+ * linkcmd.xdt in the ti.targets.elf package and will be overwritten.
+ */
+
+/*
+ * put '"'s around paths because, without this, the linker
+ * considers '-' as minus operator, not a file name character.
+ */
+
+
+-l"/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/video2/split/lib/debug/viddec2front.ae674"
+-l"/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/video2/split/lib/debug/viddec2back.ae674"
+-l"/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/universal/lib/debug/universal.ae674"
+-l"/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/vidanalytics/lib/debug/vidanalytics.ae674"
+-l"/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/vidtranscode/lib/debug/vidtranscode.ae674"
+-l"/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/audio1/lib/debug/auddec1.ae674"
+-l"/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/audio1/lib/debug/audenc1.ae674"
+-l"/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/speech1/lib/debug/sphdec1.ae674"
+-l"/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/speech1/lib/debug/sphenc1.ae674"
+-l"/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/image1/lib/debug/imgdec1.ae674"
+-l"/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/image1/lib/debug/imgenc1.ae674"
+-l"/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/video1/lib/debug/viddec1.ae674"
+-l"/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/video1/lib/debug/videnc1.ae674"
+-l"/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/video2/lib/debug/viddec2.ae674"
+-l"/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/video2/lib/debug/videnc2.ae674"
+-l"/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/video3/lib/debug/viddec3.ae674"
+-l"/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/codecs/scale/lib/scale_ti.ae674"
+-l"/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/extensions/scale/lib/scale_debug.ae674"
+-l"/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/codecs/speexenc/lib/speexenc.ae674"
+-l"/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/codecs/audenc_copy/lib/audenc_copy.ae674"
+-l"/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/audio/lib/debug/audio.ae674"
+-l"/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/codecs/imgenc_copy/lib/imgenc_copy.ae674"
+-l"/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/codecs/imgdec_copy/lib/imgdec_copy.ae674"
+-l"/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/image/lib/debug/image.ae674"
+-l"/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/codecs/sphdec_copy/lib/sphdec_copy.ae674"
+-l"/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/codecs/sphenc_copy/lib/sphenc_copy.ae674"
+-l"/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/speech/lib/debug/speech.ae674"
+-l"/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/codecs/videnc_copy/lib/videnc_copy_dma.ae674"
+-l"/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/codecs/viddec_copy/lib/viddec_copy.ae674"
+-l"/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/video/lib/debug/video.ae674"
+-l"/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/lib/debug/ce.ae674"
+-l"/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/ipc/bios/lib/debug/ipc_bios.ae674"
+-l"/home/houstar/ezsdk/component-sources/syslink_2_20_02_20/packages/ti/syslink/ipc/rtos/lib/debug/ti.syslink.ipc.rtos.ae674"
+-l"/home/houstar/ezsdk/component-sources/ipc_1_24_03_32/packages/ti/sdo/ipc/lib/instrumented_e674/ipc/ipc.lib"
+-l"/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/alg/lib/debug/Algorithm_BIOS.ae674"
+-l"/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/osal/bios/lib/debug/osal.ae674"
+-l"/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/osal/lib/debug/osal.ae674"
+-l"/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/acpy3/lib/debug/acpy3.ae674"
+-l"/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/node/lib/debug/node.ae674"
+-l"/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/utils/xdm/lib/debug/XdmUtils.ae674"
+-l"/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/dman3/lib/debug/dman3Cfg.ae674"
+-l"/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/utils/lib/debug/rmm.ae674"
+-l"/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/utils/lib/debug/smgr.ae674"
+-l"/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/utils/lib/debug/rmmp.ae674"
+-l"/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/memutils/lib/debug/memutils.ae674"
+-l"/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/rman/lib/debug/rman.ae674"
+-l"/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/ires/nullresource/lib/debug/nullres.ae674"
+-l"/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/dskt2/lib/debug/dskt2.ae674"
+-l"/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/utils/osalsupport/lib/debug/osal_support.ae674"
+-l"/home/houstar/ezsdk/component-sources/bios_6_33_05_46/packages/ti/sysbios/lib/instrumented_e674/sysbios/sysbios.lib"
+-l"/home/houstar/ezsdk/component-sources/osal_1_22_01_09/packages/ti/sdo/utils/loggers/lib/debug/loggers.ae674"
+-l"/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/utils/syscbuf/lib/debug/syscbuf.ae674"
+-l"/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/videnc2_copy/lib/debug/videnc2_copy.ae674"
+-l"/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/viddec2split_copy/lib/debug/viddec2split_copy.ae674"
+-l"/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/viddec1_copy/lib/debug/viddec1_copy.ae674"
+-l"/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/universal_copy/lib/debug/universal_copy.ae674"
+-l"/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/vidanalytics_copy/lib/debug/vidanalytics_copy.ae674"
+-l"/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/vidtranscode_copy/lib/debug/vidtranscode_copy.ae674"
+-l"/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/g711/lib/debug/g711.ae674"
+-l"/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/audenc1_copy/lib/debug/audenc1_copy.ae674"
+-l"/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/auddec1_copy/lib/debug/auddec1copy.ae674"
+-l"/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/sphdec1_copy/lib/debug/sphdec1_copy.ae674"
+-l"/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/sphenc1_copy/lib/debug/sphenc1_copy.ae674"
+-l"/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/imgenc1_copy/lib/debug/imgenc1_copy.ae674"
+-l"/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/imgdec1_copy/lib/debug/imgdec1_copy.ae674"
+-l"/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/videnc1_copy/lib/debug/videnc1_copy.ae674"
+-l"/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/viddec2_copy/lib/debug/viddec2_copy.ae674"
+-l"/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/viddec3_copy/lib/debug/viddec3_copy.ae674"
+-l"/home/houstar/DM8168/code/codec_engine/example/ti/xdais/dm/examples/auddec_copy/lib/debug/auddec_copy.ae674"
+-l"/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/global/lib/debug/fcsettings.ae674"
+-l"/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/global/lib/debug/cesettings.ae674"
+-l"/home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/packages/ti/targets/rts6000/lib/ti.targets.rts6000.ae674"
+-l"/home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/packages/ti/targets/rts6000/lib/boot.ae674"
+
+--retain="*(xdc.meta)"
+
+
+--args 0x0
+-heap  0x0
+-stack 0x1000
+
+MEMORY
+{
+    IRAM (RWX) : org = 0x10800000, len = 0x40000
+    OCMC_0 (RWX) : org = 0x40300000, len = 0x40000
+    OCMC_1 (RWX) : org = 0x40400000, len = 0x40000
+    DDR3_DSP : org = 0x99500000, len = 0xc00000
+    DDRALGHEAP : org = 0x98000000, len = 0x1400000
+    DDR3_SR1 : org = 0x9a100000, len = 0x100000
+    DDR3_SR0 : org = 0x9f700000, len = 0x200000
+}
+
+/*
+ * Linker command file contributions from all loaded packages:
+ */
+
+/* Content from xdc.services.global (null): */
+
+/* Content from xdc (null): */
+
+/* Content from xdc.corevers (null): */
+
+/* Content from xdc.shelf (null): */
+
+/* Content from xdc.services.spec (null): */
+
+/* Content from xdc.services.intern.xsr (null): */
+
+/* Content from xdc.services.intern.gen (null): */
+
+/* Content from xdc.services.intern.cmd (null): */
+
+/* Content from xdc.bld (null): */
+
+/* Content from ti.targets (null): */
+
+/* Content from ti.targets.elf (null): */
+
+/* Content from xdc.rov (null): */
+
+/* Content from xdc.runtime (null): */
+
+/* Content from ti.targets.rts6000 (null): */
+
+/* Content from ti.sysbios.interfaces (null): */
+
+/* Content from ti.sysbios.family (null): */
+
+/* Content from xdc.runtime.knl (null): */
+
+/* Content from ti.sdo.ipc.family (null): */
+
+/* Content from ti.sdo.ipc.interfaces (null): */
+
+/* Content from ti.sdo.ce.global (null): */
+
+/* Content from ti.sdo.fc.global (null): */
+
+/* Content from ti.xdais.dm.examples.auddec_copy (null): */
+
+/* Content from ti.xdais.dm.examples.viddec3_copy (null): */
+
+/* Content from ti.xdais.dm.examples.viddec2_copy (null): */
+
+/* Content from ti.xdais.dm.examples.videnc1_copy (null): */
+
+/* Content from ti.xdais.dm.examples.imgdec1_copy (null): */
+
+/* Content from ti.xdais.dm.examples.imgenc1_copy (null): */
+
+/* Content from ti.xdais.dm.examples.sphenc1_copy (null): */
+
+/* Content from ti.xdais.dm.examples.sphdec1_copy (null): */
+
+/* Content from ti.xdais.dm.examples.auddec1_copy (null): */
+
+/* Content from ti.xdais.dm.examples.audenc1_copy (null): */
+
+/* Content from ti.xdais.dm.examples.g711 (null): */
+
+/* Content from ti.xdais.dm.examples.vidtranscode_copy (null): */
+
+/* Content from ti.xdais.dm.examples.vidanalytics_copy (null): */
+
+/* Content from ti.xdais.dm.examples.universal_copy (null): */
+
+/* Content from ti.xdais.dm.examples.viddec1_copy (null): */
+
+/* Content from ti.xdais.dm.examples.viddec2split_copy (null): */
+
+/* Content from ti.xdais.dm.examples.videnc2_copy (null): */
+
+/* Content from ti.sdo.ce.utils.syscbuf (null): */
+
+/* Content from ti.sdo.utils.loggers (null): */
+
+/* Content from ti.sysbios (null): */
+
+/* Content from ti.sysbios.hal (null): */
+
+/* Content from ti.sysbios.knl (null): */
+
+/* Content from ti.sysbios.family.c64p (null): */
+
+/* Content from ti.sysbios.gates (null): */
+
+/* Content from ti.sysbios.heaps (null): */
+
+/* Content from ti.sysbios.xdcruntime (null): */
+
+/* Content from ti.sdo.utils (null): */
+
+/* Content from ti.sysbios.syncs (null): */
+
+/* Content from xdc.services.getset (null): */
+
+/* Content from ti.sysbios.family.c62 (null): */
+
+/* Content from ti.sysbios.timers.dmtimer (null): */
+
+/* Content from ti.sysbios.family.c64p.ti81xx (null): */
+
+/* Content from ti.xdais (null): */
+
+/* Content from ti.sdo.fc.ires (null): */
+
+/* Content from ti.sdo.fc.utils.osalsupport (null): */
+
+/* Content from ti.sdo.fc.dskt2 (null): */
+
+/* Content from ti.sdo.fc.ires.nullresource (null): */
+
+/* Content from ti.sdo.fc.rman (null): */
+
+/* Content from ti.sdo.fc.memutils (null): */
+
+/* Content from ti.sdo.fc.utils (null): */
+
+/* Content from ti.sdo.fc.dman3 (null): */
+
+/* Content from ti.xdais.dm (null): */
+
+/* Content from ti.sdo.ce.utils.xdm (null): */
+
+/* Content from ti.sdo.ce.node (null): */
+
+/* Content from ti.sdo.fc.acpy3 (null): */
+
+/* Content from ti.sysbios.utils (null): */
+
+/* Content from ti.catalog.c6000 (null): */
+
+/* Content from ti.catalog (null): */
+
+/* Content from ti.catalog.peripherals.hdvicp2 (null): */
+
+/* Content from xdc.platform (null): */
+
+/* Content from xdc.cfg (null): */
+
+/* Content from ti.catalog.arm.peripherals.timers (null): */
+
+/* Content from ti.catalog.arm.cortexm3 (null): */
+
+/* Content from ti.catalog.arm.cortexa8 (null): */
+
+/* Content from ti.platforms.evmTI816X (null): */
+
+/* Content from ti.sdo.ce.osal (null): */
+
+/* Content from ti.sdo.ce.osal.bios (null): */
+
+/* Content from ti.sdo.ce.ipc (null): */
+
+/* Content from ti.sdo.ce.alg (null): */
+
+/* Content from ti.sdo.ipc (ti/sdo/ipc/linkcmd.xdt): */
+
+SECTIONS
+{
+    ti.sdo.ipc.SharedRegion_0:  { . += 0x200000;} run > 0x9f700000, type = NOLOAD
+    ti.sdo.ipc.SharedRegion_1:  { . += 0x100000;} run > 0x9a100000, type = NOLOAD
+
+    ti_sdo_ipc_init: load > DDR3_DSP, type = NOINIT 
+}
+
+
+/* Content from ti.sdo.ipc.heaps (null): */
+
+/* Content from ti.sdo.ipc.family.ti81xx (null): */
+
+/* Content from ti.sdo.ipc.notifyDrivers (null): */
+
+/* Content from ti.sdo.ipc.transports (null): */
+
+/* Content from ti.sdo.ipc.nsremote (null): */
+
+/* Content from ti.syslink.ipc.rtos (ti/syslink/ipc/rtos/linkcmd.xdt): */
+
+
+        -eti_sysbios_family_c64p_Hwi0
+
+/* Add the flags needed for SysLink ELF build. */
+    --dynamic
+    --retain=_Ipc_ResetVector
+
+/* Content from ti.sdo.ce.ipc.dsplink.dsp (null): */
+
+/* Content from ti.sdo.ce.ipc.bios (null): */
+
+/* Content from ti.sdo.ce (null): */
+
+/* Content from ti.sdo.ce.video (null): */
+
+/* Content from ti.sdo.ce.examples.codecs.viddec_copy (null): */
+
+/* Content from ti.sdo.ce.examples.codecs.videnc_copy (null): */
+
+/* Content from ti.sdo.ce.speech (null): */
+
+/* Content from ti.sdo.ce.examples.codecs.sphenc_copy (null): */
+
+/* Content from ti.sdo.ce.examples.codecs.sphdec_copy (null): */
+
+/* Content from ti.sdo.ce.image (null): */
+
+/* Content from ti.sdo.ce.examples.codecs.imgdec_copy (null): */
+
+/* Content from ti.sdo.ce.examples.codecs.imgenc_copy (null): */
+
+/* Content from ti.sdo.ce.audio (null): */
+
+/* Content from ti.sdo.ce.examples.codecs.auddec_copy (null): */
+
+/* Content from ti.sdo.ce.examples.codecs.audenc_copy (null): */
+
+/* Content from ti.sdo.ce.examples.codecs.speexenc (null): */
+
+/* Content from ti.sdo.ce.examples.extensions.scale (null): */
+
+/* Content from ti.sdo.ce.examples.codecs.scale (null): */
+
+/* Content from ti.sdo.ce.video3 (null): */
+
+/* Content from ti.sdo.ce.examples.codecs.viddec3_copy (null): */
+
+/* Content from ti.sdo.ce.video2 (null): */
+
+/* Content from ti.sdo.ce.examples.codecs.viddec2_copy (null): */
+
+/* Content from ti.sdo.ce.video1 (null): */
+
+/* Content from ti.sdo.ce.examples.codecs.videnc1_copy (null): */
+
+/* Content from ti.sdo.ce.image1 (null): */
+
+/* Content from ti.sdo.ce.examples.codecs.imgdec1_copy (null): */
+
+/* Content from ti.sdo.ce.examples.codecs.imgenc1_copy (null): */
+
+/* Content from ti.sdo.ce.speech1 (null): */
+
+/* Content from ti.sdo.ce.examples.codecs.sphenc1_copy (null): */
+
+/* Content from ti.sdo.ce.examples.codecs.sphdec1_copy (null): */
+
+/* Content from ti.sdo.ce.audio1 (null): */
+
+/* Content from ti.sdo.ce.examples.codecs.auddec1_copy (null): */
+
+/* Content from ti.sdo.ce.examples.codecs.audenc1_copy (null): */
+
+/* Content from ti.sdo.ce.examples.codecs.g711 (null): */
+
+/* Content from ti.sdo.ce.vidtranscode (null): */
+
+/* Content from ti.sdo.ce.examples.codecs.vidtranscode_copy (null): */
+
+/* Content from ti.sdo.ce.vidanalytics (null): */
+
+/* Content from ti.sdo.ce.examples.codecs.vidanalytics_copy (null): */
+
+/* Content from ti.sdo.ce.universal (null): */
+
+/* Content from ti.sdo.ce.examples.codecs.universal_copy (null): */
+
+/* Content from ti.sdo.ce.examples.codecs.viddec1_copy (null): */
+
+/* Content from ti.sdo.ce.video2.split (null): */
+
+/* Content from ti.sdo.ce.examples.codecs.viddec2split_copy (null): */
+
+/* Content from ti.sdo.ce.examples.codecs.videnc2_copy (null): */
+
+/* Content from ti.sdo.ipc.gates (null): */
+
+/* Content from ti.sdo.ce.examples.servers.all_codecs (null): */
+
+
+/*
+ * symbolic aliases for static instance objects
+ */
+xdc_runtime_Startup__EXECFXN__C = 1;
+xdc_runtime_Startup__RESETFXN__C = 1;
+TSK_idle = ti_sysbios_knl_Task_Object__table__V + 0;
+
+SECTIONS
+{
+    .text: load >> DDR3_DSP
+    .ti.decompress: load > DDR3_DSP
+    .stack: load > DDR3_DSP
+    GROUP: load > DDR3_DSP
+    {
+        .bss:
+        .neardata:
+        .rodata:
+    }
+    .cinit: load > DDR3_DSP
+    .pinit: load >> DDR3_DSP
+    .init_array: load > DDR3_DSP
+    .const: load >> DDR3_DSP
+    .data: load >> DDR3_DSP
+    .fardata: load >> DDR3_DSP
+    .switch: load >> DDR3_DSP
+    .sysmem: load > DDR3_DSP
+    .far: load >> DDR3_DSP
+    .args: load > DDR3_DSP align = 0x4, fill = 0 {_argsize = 0x0; }
+    .cio: load >> DDR3_DSP
+    .ti.handler_table: load > DDR3_DSP
+    .EXT_HEAP: load >> DDR3_DSP
+    .INT_HEAP: load >> IRAM
+    .EXTALG_HEAP: load >> DDRALGHEAP
+    .vecs: load >> DDR3_DSP
+    xdc.meta: load >> DDR3_DSP, type = COPY
+
+}

@@ -1,0 +1,11 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+[Project Settings]
+ProjectName="ti.sdo.fc.ires.examples.codecs.auddec1"
+ProjectType=External
+CPUFamily=TMS320C67XX
+Tool="CustomBuilder"
+Config="Package"
+[Source Files]
+Source="../package/package_ti.sdo.fc.ires.examples.codecs.auddec1.c"
+Source="../auddec1_ti.c"
+Source="../auddec1_ti_ires.c"

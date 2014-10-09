@@ -1,0 +1,79 @@
+10
+
+dir
+318
+svn://192.168.19.205/DM8168/code/codec_engine/example/ti/xdais/dm/examples
+svn://192.168.19.205/DM8168
+
+
+
+2002-01-07T21:24:46.329678Z
+289
+wuminghao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+abc0f7d9-c163-4fcb-970d-994d21e33482
+
+g711
+dir
+
+auddec_copy
+dir
+
+vidtranscode_copy
+dir
+
+sphdec1_copy
+dir
+
+videnc1_copy
+dir
+
+videnc2_copy
+dir
+
+vidanalytics_copy
+dir
+
+viddec2split_copy
+dir
+
+sphenc1_copy
+dir
+
+auddec1_copy
+dir
+
+universal_copy
+dir
+
+imgdec1_copy
+dir
+
+viddec1_copy
+dir
+
+viddec2_copy
+dir
+
+audenc1_copy
+dir
+
+viddec3_copy
+dir
+
+imgenc1_copy
+dir
+

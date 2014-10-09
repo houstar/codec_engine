@@ -1,0 +1,46 @@
+10
+
+dir
+318
+svn://192.168.19.205/DM8168/code/codec_engine/example/ti/sdo/ce/examples/apps/rtcfg
+svn://192.168.19.205/DM8168
+
+
+
+2002-02-01T21:04:32.268424Z
+313
+dengjun
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+abc0f7d9-c163-4fcb-970d-994d21e33482
+
+armlivemedia
+dir
+
+faacenc
+dir
+
+video1_copy
+dir
+
+speech1_copy
+dir
+
+audio_copy
+dir
+
+osal
+dir
+

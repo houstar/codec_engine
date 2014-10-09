@@ -1,0 +1,260 @@
+-------------------------  speex_C64_test.pjt - Debug  -------------------------
+[bits.c] "d:\CCStudio_v3.3\C6000\cgtools\bin\cl6x" -g -o3 -fr"D:/workspace/speex/ti/speex_C64_test/Debug" -i"../ti" -i"../include" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -mv6740 -@"../ti/speex_C64_test/Debug.lkf" "bits.c"
+
+[cb_search.c] "d:\CCStudio_v3.3\C6000\cgtools\bin\cl6x" -g -o3 -fr"D:/workspace/speex/ti/speex_C64_test/Debug" -i"../ti" -i"../include" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -mv6740 -@"../ti/speex_C64_test/Debug.lkf" "cb_search.c"
+"cb_search.c", line 527: warning: variable "shape_cb_size" was set but never used
+
+[exc_10_16_table.c] "d:\CCStudio_v3.3\C6000\cgtools\bin\cl6x" -g -o3 -fr"D:/workspace/speex/ti/speex_C64_test/Debug" -i"../ti" -i"../include" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -mv6740 -@"../ti/speex_C64_test/Debug.lkf" "exc_10_16_table.c"
+
+[exc_10_32_table.c] "d:\CCStudio_v3.3\C6000\cgtools\bin\cl6x" -g -o3 -fr"D:/workspace/speex/ti/speex_C64_test/Debug" -i"../ti" -i"../include" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -mv6740 -@"../ti/speex_C64_test/Debug.lkf" "exc_10_32_table.c"
+
+[exc_20_32_table.c] "d:\CCStudio_v3.3\C6000\cgtools\bin\cl6x" -g -o3 -fr"D:/workspace/speex/ti/speex_C64_test/Debug" -i"../ti" -i"../include" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -mv6740 -@"../ti/speex_C64_test/Debug.lkf" "exc_20_32_table.c"
+
+[exc_5_256_table.c] "d:\CCStudio_v3.3\C6000\cgtools\bin\cl6x" -g -o3 -fr"D:/workspace/speex/ti/speex_C64_test/Debug" -i"../ti" -i"../include" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -mv6740 -@"../ti/speex_C64_test/Debug.lkf" "exc_5_256_table.c"
+
+[exc_5_64_table.c] "d:\CCStudio_v3.3\C6000\cgtools\bin\cl6x" -g -o3 -fr"D:/workspace/speex/ti/speex_C64_test/Debug" -i"../ti" -i"../include" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -mv6740 -@"../ti/speex_C64_test/Debug.lkf" "exc_5_64_table.c"
+
+[exc_8_128_table.c] "d:\CCStudio_v3.3\C6000\cgtools\bin\cl6x" -g -o3 -fr"D:/workspace/speex/ti/speex_C64_test/Debug" -i"../ti" -i"../include" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -mv6740 -@"../ti/speex_C64_test/Debug.lkf" "exc_8_128_table.c"
+
+[filters.c] "d:\CCStudio_v3.3\C6000\cgtools\bin\cl6x" -g -o3 -fr"D:/workspace/speex/ti/speex_C64_test/Debug" -i"../ti" -i"../include" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -mv6740 -@"../ti/speex_C64_test/Debug.lkf" "filters.c"
+
+[gain_table.c] "d:\CCStudio_v3.3\C6000\cgtools\bin\cl6x" -g -o3 -fr"D:/workspace/speex/ti/speex_C64_test/Debug" -i"../ti" -i"../include" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -mv6740 -@"../ti/speex_C64_test/Debug.lkf" "gain_table.c"
+
+[gain_table_lbr.c] "d:\CCStudio_v3.3\C6000\cgtools\bin\cl6x" -g -o3 -fr"D:/workspace/speex/ti/speex_C64_test/Debug" -i"../ti" -i"../include" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -mv6740 -@"../ti/speex_C64_test/Debug.lkf" "gain_table_lbr.c"
+
+[lpc.c] "d:\CCStudio_v3.3\C6000\cgtools\bin\cl6x" -g -o3 -fr"D:/workspace/speex/ti/speex_C64_test/Debug" -i"../ti" -i"../include" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -mv6740 -@"../ti/speex_C64_test/Debug.lkf" "lpc.c"
+
+[lsp.c] "d:\CCStudio_v3.3\C6000\cgtools\bin\cl6x" -g -o3 -fr"D:/workspace/speex/ti/speex_C64_test/Debug" -i"../ti" -i"../include" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -mv6740 -@"../ti/speex_C64_test/Debug.lkf" "lsp.c"
+
+[lsp_tables_nb.c] "d:\CCStudio_v3.3\C6000\cgtools\bin\cl6x" -g -o3 -fr"D:/workspace/speex/ti/speex_C64_test/Debug" -i"../ti" -i"../include" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -mv6740 -@"../ti/speex_C64_test/Debug.lkf" "lsp_tables_nb.c"
+
+[ltp.c] "d:\CCStudio_v3.3\C6000\cgtools\bin\cl6x" -g -o3 -fr"D:/workspace/speex/ti/speex_C64_test/Debug" -i"../ti" -i"../include" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -mv6740 -@"../ti/speex_C64_test/Debug.lkf" "ltp.c"
+
+[modes.c] "d:\CCStudio_v3.3\C6000\cgtools\bin\cl6x" -g -o3 -fr"D:/workspace/speex/ti/speex_C64_test/Debug" -i"../ti" -i"../include" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -mv6740 -@"../ti/speex_C64_test/Debug.lkf" "modes.c"
+
+[nb_celp.c] "d:\CCStudio_v3.3\C6000\cgtools\bin\cl6x" -g -o3 -fr"D:/workspace/speex/ti/speex_C64_test/Debug" -i"../ti" -i"../include" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -mv6740 -@"../ti/speex_C64_test/Debug.lkf" "nb_celp.c"
+"nb_celp.c", line 1303: warning: variable "sp" was set but never used
+"nb_celp.c", line 1505: warning: variable "exc" was set but never used
+
+[quant_lsp.c] "d:\CCStudio_v3.3\C6000\cgtools\bin\cl6x" -g -o3 -fr"D:/workspace/speex/ti/speex_C64_test/Debug" -i"../ti" -i"../include" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -mv6740 -@"../ti/speex_C64_test/Debug.lkf" "quant_lsp.c"
+
+[sb_celp.c] "d:\CCStudio_v3.3\C6000\cgtools\bin\cl6x" -g -o3 -fr"D:/workspace/speex/ti/speex_C64_test/Debug" -i"../ti" -i"../include" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -mv6740 -@"../ti/speex_C64_test/Debug.lkf" "sb_celp.c"
+
+[speex.c] "d:\CCStudio_v3.3\C6000\cgtools\bin\cl6x" -g -o3 -fr"D:/workspace/speex/ti/speex_C64_test/Debug" -i"../ti" -i"../include" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -mv6740 -@"../ti/speex_C64_test/Debug.lkf" "speex.c"
+
+[speex_callbacks.c] "d:\CCStudio_v3.3\C6000\cgtools\bin\cl6x" -g -o3 -fr"D:/workspace/speex/ti/speex_C64_test/Debug" -i"../ti" -i"../include" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -mv6740 -@"../ti/speex_C64_test/Debug.lkf" "speex_callbacks.c"
+
+[vbr.c] "d:\CCStudio_v3.3\C6000\cgtools\bin\cl6x" -g -o3 -fr"D:/workspace/speex/ti/speex_C64_test/Debug" -i"../ti" -i"../include" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -mv6740 -@"../ti/speex_C64_test/Debug.lkf" "vbr.c"
+"vbr.c", line 129: warning: variable "va" was set but never used
+
+[vq.c] "d:\CCStudio_v3.3\C6000\cgtools\bin\cl6x" -g -o3 -fr"D:/workspace/speex/ti/speex_C64_test/Debug" -i"../ti" -i"../include" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -mv6740 -@"../ti/speex_C64_test/Debug.lkf" "vq.c"
+
+[window.c] "d:\CCStudio_v3.3\C6000\cgtools\bin\cl6x" -g -o3 -fr"D:/workspace/speex/ti/speex_C64_test/Debug" -i"../ti" -i"../include" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -mv6740 -@"../ti/speex_C64_test/Debug.lkf" "window.c"
+
+[testenc-TI-C64x.c] "d:\CCStudio_v3.3\C6000\cgtools\bin\cl6x" -g -o3 -fr"D:/workspace/speex/ti/speex_C64_test/Debug" -i"../ti" -i"../include" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -mv6740 -@"speex_C64_test/Debug.lkf" "testenc-TI-C64x.c"
+
+[Linking...] "d:\CCStudio_v3.3\C6000\cgtools\bin\cl6x" -@"Debug.lkf"
+<Linking>
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'boot.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'defs.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'divd.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'divf.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'divi.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'exit.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'fclose.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'feof.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'fflush.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'fopen.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'fprintf.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'fputc.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'fputs.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'frcdivd.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'frcdivf.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'fread.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'fwrite.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'log.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'log10.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'lowlev.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'memcpy64.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'memmov.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'memory.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'memset.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'modf.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'mpyd.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'pow.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'remove.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'rewind.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'round.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'subd.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'trgdrv.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'trgmsg.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'trunc.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            '_bufread.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            '_io_perm.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            '_lock.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            '_printfi.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'addd.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'args_main.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'atoi.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'autoinit.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'cmpd.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'ctype.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'divu.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'errno.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'fixdi.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'fixdli.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'fltid.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'fltlid.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'frcaddd.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'frcmpyd.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'frexp.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'fseek.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'imath40.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'imath64.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'ldexp.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'llshift.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'ltoa.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'memccpy.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'mpyll.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'negd.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'negll.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'renormd.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'setvbuf.obj')
+>>   error: linking files for incompatible targets (library
+            'D:\\CCStudio_v3.3\\C6000\\cgtools\\lib\\rts6400.lib', member
+            'abs.obj')
+
+>> Compilation failure
+
+Build Complete,
+  67 Errors, 4 Warnings, 0 Remarks.

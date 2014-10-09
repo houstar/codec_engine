@@ -1,0 +1,14 @@
+package.xdc
+package.xs
+VIDDEC1_COPY.xdc
+VIDDEC1_COPY.xs
+package/ti.sdo.ce.examples.codecs.viddec1_copy.sch
+package/.vers_g180
+package/.vers_r170
+package/.vers_b150
+package/.xdc-y25
+package/ti_sdo_ce_examples_codecs_viddec1_copy.java
+package/ti_sdo_ce_examples_codecs_viddec1_copy.class
+package/package_ti.sdo.ce.examples.codecs.viddec1_copy.c
+package/package.defs.h
+package/ti.sdo.ce.examples.codecs.viddec1_copy.ccs

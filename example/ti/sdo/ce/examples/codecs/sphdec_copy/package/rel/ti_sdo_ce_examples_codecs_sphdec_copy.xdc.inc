@@ -1,0 +1,17 @@
+package.xs
+sphdec_copy.c
+package.xdc
+sphdec_copy_ti_priv.h
+makefile
+sphdec_copy_ti.h
+package.bld
+SPHDEC_COPY.xs
+SPHDEC_COPY.xdc
+package/package.bld.xml
+package/package.ext.xml
+package/package.rel.dot
+package/build.cfg
+package/package.xdc.inc
+package/package.cfg.xdc.inc
+lib/sphdec_copy.a674
+lib/sphdec_copy.ae674

@@ -1,0 +1,17 @@
+package/package.bld.xml
+package/package.ext.xml
+package/package.rel.dot
+package/build.cfg
+package/package.xdc.inc
+auddec1_ti.h
+lib
+package.bld
+auddec1_ti_priv.h
+package/package.cfg.xdc.inc
+lib/debug/auddec1_ti.a674
+package/package_ti.sdo.fc.ires.examples.codecs.auddec1.c
+auddec1_ti.c
+auddec1_ti_ires.c
+lib/release/auddec1_ti.a674
+lib/debug/auddec1_ti.ae674
+lib/release/auddec1_ti.ae674

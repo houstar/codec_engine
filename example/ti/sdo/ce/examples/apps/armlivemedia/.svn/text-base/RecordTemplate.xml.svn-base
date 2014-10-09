@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="GB2312"?>
+<!-- 请注意，此中的中文是为了理解方便而添加上的，实际xml可能不支持中文.-->
+<StreamMedia Enable="FALSE">
+  <!-- Web登录配置，包括课程中心和视频中心登录的配置-->
+  <WebInfo Enable="TRUE" WebServiceURL="">
+    <LoginInfo LoginUsername="test" LoginPassword="123" />
+    <CourseFolder Index="1" ProductNo="12" CourseID="13" ServerID="14" FolderID="15" FolderTreeID="16" FolderName=".\kczx" FolderType="45" />
+    <CourseFolder Index="2" ProductNo="22" CourseID="23" ServerID="24" FolderID="25" FolderTreeID="26" FolderName=".\spzx" FolderType="45" />
+  </WebInfo>
+  <!-- 录制模板的配置-->
+  <RecordTemplate Count="5">
+    <!-- 模板数量固定为5种，初始都使用相同的模块，各模板规定了片头、片尾、以及校标、课程信息的显示方式-->
+    <Template Index="0" Name="标准模板">
+      <HeadInfo BackPic="/home/root/RecordTemplate/Head.png">
+        <Course Show="TRUE" Font="黑体" Size="50" Color="255,255,255" PosX="80" PosY="640" />
+        <ViceTitle Show="TRUE" Font="黑体" Size="30" Color="0,0,0" PosX="80" PosY="710" />
+        <TeacherName Show="TRUE" Font="黑体" Size="25" Color="0,0,0" PosX="80" PosY="790" />
+        <HeadTime Show="FALSE" Font="黑体" Size="20" Color="255,255,255" PosX="50" PosY="910" />
+      </HeadInfo>
+      <TailInfo BackPic="/home/root/RecordTemplate/Tail.png" Text="谢谢收看">
+        <TailText Show="TRUE" Font="黑体" Size="50" Color="255,255,255" PosX="80" PosY="660" />
+        <TailTime Show="TRUE" Font="黑体" Size="20" Color="0,0,0" PosX="290" PosY="800" />
+      </TailInfo>
+      <LogoInfo>
+        <Logo File="Default\Logo.bmp" PosX="780" PosY="10" />
+      </LogoInfo>
+      <CourseInfo>
+        <Course Show="TRUE" Font="黑体" Size="28" Color="255,255,255" PosX="100" PosY="880" />
+        <TeacherName Show="TRUE" Font="黑体" Size="28" Color="255,255,255" PosX="100" PosY="930" />
+        <CoursePic Show="TRUE" File="Default\Frame.bmp" PosX="30" PosY="870" />
+      </CourseInfo>
+    </Template>
+    <Template Index="1" Name="水立方">
+      <HeadInfo BackPic="std1_Head.bmp">
+        <Course Show="TRUE" Font="黑体" Size="50" Color="255,255,255" PosX="80" PosY="640" />
+        <ViceTitle Show="TRUE" Font="黑体" Size="30" Color="0,0,0" PosX="80" PosY="710" />
+        <TeacherName Show="TRUE" Font="黑体" Size="25" Color="0,0,0" PosX="80" PosY="790" />
+        <HeadTime Show="FALSE" Font="黑体" Size="20" Color="255,255,255" PosX="500" PosY="910" />
+      </HeadInfo>
+      <TailInfo BackPic="std1_Tail.bmp" Text="谢谢收看。">
+        <TailText Show="TRUE" Font="黑体" Size="50" Color="255,255,255" PosX="80" PosY="660" />
+        <TailTime Show="TRUE" Font="黑体" Size="20" Color="0,0,0" PosX="290" PosY="800" />
+      </TailInfo>
+      <LogoInfo>
+        <Logo File="Default\Logo.bmp" PosX="780" PosY="100" />
+      </LogoInfo>
+      <CourseInfo>
+        <Course Show="TRUE" Font="黑体" Size="28" Color="255,255,255" PosX="100" PosY="880" />
+        <TeacherName Show="TRUE" Font="黑体" Size="28" Color="255,255,255" PosX="100" PosY="930" />
+        <CoursePic Show="TRUE" File="Default\Frame.bmp" PosX="30" PosY="870" />
+      </CourseInfo>
+    </Template>
+    <Template Index="2" Name="蓝色天空">
+      <HeadInfo BackPic="std2_Head.bmp">
+        <Course Show="TRUE" Font="黑体" Size="50" Color="255,255,255" PosX="80" PosY="640" />
+        <ViceTitle Show="TRUE" Font="黑体" Size="30" Color="0,0,0" PosX="80" PosY="710" />
+        <TeacherName Show="TRUE" Font="黑体" Size="25" Color="0,0,0" PosX="80" PosY="790" />
+        <HeadTime Show="FALSE" Font="黑体" Size="20" Color="255,255,255" PosX="500" PosY="910" />
+      </HeadInfo>
+      <TailInfo BackPic="std2_Tail.bmp" Text="谢谢收看。">
+        <TailText Show="TRUE" Font="黑体" Size="50" Color="255,255,255" PosX="80" PosY="660" />
+        <TailTime Show="TRUE" Font="黑体" Size="20" Color="0,0,0" PosX="290" PosY="800" />
+      </TailInfo>
+      <LogoInfo>
+        <Logo File="Default\Logo.bmp" PosX="780" PosY="10" />
+      </LogoInfo>
+      <CourseInfo>
+        <Course Show="TRUE" Font="黑体" Size="28" Color="255,255,255" PosX="100" PosY="880" />
+        <TeacherName Show="TRUE" Font="黑体" Size="28" Color="255,255,255" PosX="100" PosY="930" />
+        <CoursePic Show="TRUE" File="Default\Frame.bmp" PosX="30" PosY="870" />
+      </CourseInfo>
+    </Template>
+  </RecordTemplate>
+</StreamMedia>

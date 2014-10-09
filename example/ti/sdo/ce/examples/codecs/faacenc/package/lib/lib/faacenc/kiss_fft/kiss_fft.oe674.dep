@@ -1,0 +1,15 @@
+package/lib/lib/faacenc/kiss_fft/kiss_fft.oe674: kiss_fft/kiss_fft.c kiss_fft/_kiss_fft_guts.h kiss_fft/kiss_fft.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stdlib.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stdio.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/math.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/linkage.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stdarg.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/float.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/access.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/elfnames.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/mathf.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/mathl.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/unaccess.h 
+kiss_fft/kiss_fft.c:
+kiss_fft/_kiss_fft_guts.h:
+kiss_fft/kiss_fft.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stdlib.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stdio.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/math.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/linkage.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stdarg.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/float.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/access.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/elfnames.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/mathf.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/mathl.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/unaccess.h:

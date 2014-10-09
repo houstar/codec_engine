@@ -1,0 +1,65 @@
+#pragma once
+
+#define KEY_MUTE			0x0015
+
+#define KEY_PW_TPC			0x0003
+#define KEY_PW_LIGHT		0x0004
+#define KEY_PW_AMPLIFIER	0x0005
+#define KEY_PW_PROJECTOR	0x0006
+
+#define KEY_DEV_UP			0x0007
+#define KEY_DEV_STOP		0x0008
+#define KEY_DEV_DOWN		0x0009
+#define KEY_DEV_SEL			0x000a
+
+#define KEY_REC_TPC			0x010c
+#define KEY_REC_NB			0x010d
+#define KEY_REC_EX1			0x010E
+#define KEY_REC_PLAY		0x020F
+#define KEY_REC_STOP		0x0210
+#define KEY_REC_VS			0x0111
+#define KEY_REC_DVD			0x0112
+#define KEY_REC_RECORDER	0x0113
+#define KEY_REC_EX2			0x0114
+
+#define KEY_ADV_MODE		0x0216
+#define KEY_ADV_SIZE		0x0217
+#define KEY_ADV_EFFECT		0x0218
+#define KEY_ADV_RATE		0x0219
+#define KEY_ADV_HIGHT		0x021a
+
+#define KEY_CTRL_RETURN		0x0122
+#define KEY_CTRL_UP			0x0123
+#define KEY_CTRL_OK			0x0124
+#define KEY_CTRL_LEFT		0x0125
+#define KEY_CTRL_DOWN		0x0126
+#define KEY_CTRL_RIGHT		0x0127
+#define KEY_CTRL_CHANNEL	0x0128
+#define KEY_CTRL_TITLE		0x0129
+#define KEY_CTRL_LANGUAGE	0x012a
+#define KEY_CTRL_PRE		0x012B
+#define KEY_CTRL_BACK		0x012c
+#define KEY_CTRL_PLAY		0x012d
+#define KEY_CTRL_FORWARD	0x012e
+#define KEY_CTRL_NEXT		0x012f
+
+
+#define KEY_CAMERA_ZOOMADD	0x021c
+#define KEY_CAMERA_ZOOMDEC	0x021e
+#define KEY_CAMERA_UP		0x021d
+#define KEY_CAMERA_DOWN		0x0220
+#define KEY_CAMERA_LEFT		0x021f
+#define KEY_CAMERA_RIGHT	0x0221
+#define KEY_CAMERA_LU		0x0231
+#define KEY_CAMERA_UR		0x0233
+#define KEY_CAMERA_RD		0x0234
+#define KEY_CAMERA_DL		0x0232
+
+#define KEY_CLASS_OVER			0x0001
+#define KEY_PC_POWER_DOWN		0x0002
+#define KEY_TYM_POWER_DOWN		0x0003
+#define KEY_TYJ_POWER_DOWN		0x0004
+#define KEY_CLASS_BEGIN			0x0005
+#define KEY_PC_POWER			0x0006
+#define KEY_TYM_POWER_UP		0x0007
+#define KEY_TYJ_POWER			0x0008

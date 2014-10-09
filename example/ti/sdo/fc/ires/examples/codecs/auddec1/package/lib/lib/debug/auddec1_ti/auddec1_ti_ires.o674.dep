@@ -1,0 +1,22 @@
+package/lib/lib/debug/auddec1_ti/auddec1_ti_ires.o674: auddec1_ti_ires.c /home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/packages/xdc/std.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/string.h /home/houstar/ezsdk/component-sources/xdais_7_22_00_03/packages/ti/xdais/dm/iauddec1.h /home/houstar/ezsdk/component-sources/xdais_7_22_00_03/packages/ti/xdais/ialg.h /home/houstar/ezsdk/component-sources/xdais_7_22_00_03/packages/ti/xdais/ires.h /home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/ires/bufres/bufres.h ./auddec1_ti.h ./auddec1_ti_priv.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stdarg.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stddef.h /home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/packages/ti/targets/std.h /home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/packages/ti/targets/select.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/linkage.h /home/houstar/ezsdk/component-sources/xdais_7_22_00_03/packages/ti/xdais/xdas.h /home/houstar/ezsdk/component-sources/xdais_7_22_00_03/packages/ti/xdais/dm/xdm.h /home/houstar/ezsdk/component-sources/xdais_7_22_00_03/packages/ti/xdais/dm/iaudio.h /home/houstar/ezsdk/component-sources/xdais_7_22_00_03/packages/ti/xdais/ires_common.h /home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/ires/iresman_protocol.h /home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/ires/iresman.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stdint.h 
+auddec1_ti_ires.c:
+/home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/packages/xdc/std.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/string.h:
+/home/houstar/ezsdk/component-sources/xdais_7_22_00_03/packages/ti/xdais/dm/iauddec1.h:
+/home/houstar/ezsdk/component-sources/xdais_7_22_00_03/packages/ti/xdais/ialg.h:
+/home/houstar/ezsdk/component-sources/xdais_7_22_00_03/packages/ti/xdais/ires.h:
+/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/ires/bufres/bufres.h:
+./auddec1_ti.h:
+./auddec1_ti_priv.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stdarg.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stddef.h:
+/home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/packages/ti/targets/std.h:
+/home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/packages/ti/targets/select.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/linkage.h:
+/home/houstar/ezsdk/component-sources/xdais_7_22_00_03/packages/ti/xdais/xdas.h:
+/home/houstar/ezsdk/component-sources/xdais_7_22_00_03/packages/ti/xdais/dm/xdm.h:
+/home/houstar/ezsdk/component-sources/xdais_7_22_00_03/packages/ti/xdais/dm/iaudio.h:
+/home/houstar/ezsdk/component-sources/xdais_7_22_00_03/packages/ti/xdais/ires_common.h:
+/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/ires/iresman_protocol.h:
+/home/houstar/ezsdk/component-sources/framework_components_3_22_01_07/packages/ti/sdo/fc/ires/iresman.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stdint.h:

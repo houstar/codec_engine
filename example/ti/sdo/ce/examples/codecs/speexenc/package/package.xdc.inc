@@ -1,0 +1,14 @@
+package.xdc
+package.xs
+speexenc.xdc
+speexenc.xs
+package/ti.sdo.ce.examples.codecs.speexenc.sch
+package/.vers_g180
+package/.vers_r170
+package/.vers_b150
+package/.xdc-y25
+package/ti_sdo_ce_examples_codecs_speexenc.java
+package/ti_sdo_ce_examples_codecs_speexenc.class
+package/package_ti.sdo.ce.examples.codecs.speexenc.c
+package/package.defs.h
+package/ti.sdo.ce.examples.codecs.speexenc.ccs

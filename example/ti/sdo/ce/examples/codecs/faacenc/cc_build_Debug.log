@@ -1,0 +1,128 @@
+-----------------------------  AACEnc.pjt - Debug  -----------------------------
+[aacquant.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/aac/libfaac/Debug" -d"_DEBUG" -mv6400 -@"Debug.lkf" "aacquant.c"
+"psych.h", line 85: warning: last line of file ends without a newline
+"aacquant.h", line 40: warning: unrecognized #pragma
+"aacquant.h", line 47: warning: unrecognized #pragma
+"frame.h", line 63: warning: unrecognized #pragma
+"faaccfg.h", line 48: warning: unrecognized #pragma
+"faaccfg.h", line 120: warning: unrecognized #pragma
+"frame.h", line 158: warning: unrecognized #pragma
+"aacquant.c", line 212: warning: function declared implicitly
+
+[backpred.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/aac/libfaac/Debug" -d"_DEBUG" -mv6400 -@"Debug.lkf" "backpred.c"
+"psych.h", line 85: warning: last line of file ends without a newline
+"aacquant.h", line 40: warning: unrecognized #pragma
+"aacquant.h", line 47: warning: unrecognized #pragma
+"frame.h", line 63: warning: unrecognized #pragma
+"faaccfg.h", line 48: warning: unrecognized #pragma
+"faaccfg.h", line 120: warning: unrecognized #pragma
+"frame.h", line 158: warning: unrecognized #pragma
+
+[bitstream.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/aac/libfaac/Debug" -d"_DEBUG" -mv6400 -@"Debug.lkf" "bitstream.c"
+"psych.h", line 85: warning: last line of file ends without a newline
+"aacquant.h", line 40: warning: unrecognized #pragma
+"aacquant.h", line 47: warning: unrecognized #pragma
+"frame.h", line 63: warning: unrecognized #pragma
+"faaccfg.h", line 48: warning: unrecognized #pragma
+"faaccfg.h", line 120: warning: unrecognized #pragma
+"frame.h", line 158: warning: unrecognized #pragma
+"bitstream.c", line 124: warning: function declared implicitly
+"bitstream.c", line 948: warning: function declared implicitly
+
+[channels.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/aac/libfaac/Debug" -d"_DEBUG" -mv6400 -@"Debug.lkf" "channels.c"
+
+[faacenc.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/aac/libfaac/Debug" -d"_DEBUG" -mv6400 -@"Debug.lkf" "faacenc.c"
+"psych.h", line 85: warning: last line of file ends without a newline
+"aacquant.h", line 40: warning: unrecognized #pragma
+"aacquant.h", line 47: warning: unrecognized #pragma
+"frame.h", line 63: warning: unrecognized #pragma
+"faaccfg.h", line 48: warning: unrecognized #pragma
+"faaccfg.h", line 120: warning: unrecognized #pragma
+"frame.h", line 158: warning: unrecognized #pragma
+
+[fft.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/aac/libfaac/Debug" -d"_DEBUG" -mv6400 -@"Debug.lkf" "fft.c"
+"fft.c", line 652: warning: function declared implicitly
+
+[filtbank.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/aac/libfaac/Debug" -d"_DEBUG" -mv6400 -@"Debug.lkf" "filtbank.c"
+"psych.h", line 85: warning: last line of file ends without a newline
+"aacquant.h", line 40: warning: unrecognized #pragma
+"aacquant.h", line 47: warning: unrecognized #pragma
+"frame.h", line 63: warning: unrecognized #pragma
+"faaccfg.h", line 48: warning: unrecognized #pragma
+"faaccfg.h", line 120: warning: unrecognized #pragma
+"frame.h", line 158: warning: unrecognized #pragma
+"filtbank.c", line 61: warning: function declared implicitly
+"filtbank.c", line 173: warning: function declared implicitly
+"filtbank.c", line 292: warning: function declared implicitly
+"filtbank.c", line 296: warning: function declared implicitly
+"filtbank.c", line 312: warning: function declared implicitly
+"filtbank.c", line 344: warning: function declared implicitly
+"filtbank.c", line 372: warning: function declared implicitly
+
+[frame.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/aac/libfaac/Debug" -d"_DEBUG" -mv6400 -@"Debug.lkf" "frame.c"
+"psych.h", line 85: warning: last line of file ends without a newline
+"aacquant.h", line 40: warning: unrecognized #pragma
+"aacquant.h", line 47: warning: unrecognized #pragma
+"frame.h", line 63: warning: unrecognized #pragma
+"faaccfg.h", line 48: warning: unrecognized #pragma
+"faaccfg.h", line 120: warning: unrecognized #pragma
+"frame.h", line 158: warning: unrecognized #pragma
+"frame.c", line 107: warning: function declared implicitly
+"frame.c", line 154: warning: statement is unreachable
+"frame.c", line 310: warning: function declared implicitly
+"frame.c", line 567: warning: statement is unreachable
+"frame.c", line 685: warning: enumerated type mixed with another type
+"frame.c", line 848: warning: enumerated type mixed with another type
+"frame.c", line 1113: warning: integer conversion resulted in a change of sign
+
+[huffman.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/aac/libfaac/Debug" -d"_DEBUG" -mv6400 -@"Debug.lkf" "huffman.c"
+"psych.h", line 85: warning: last line of file ends without a newline
+"aacquant.h", line 40: warning: unrecognized #pragma
+"aacquant.h", line 47: warning: unrecognized #pragma
+"frame.h", line 63: warning: unrecognized #pragma
+"faaccfg.h", line 48: warning: unrecognized #pragma
+"faaccfg.h", line 120: warning: unrecognized #pragma
+"frame.h", line 158: warning: unrecognized #pragma
+
+[ltp.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/aac/libfaac/Debug" -d"_DEBUG" -mv6400 -@"Debug.lkf" "ltp.c"
+"psych.h", line 85: warning: last line of file ends without a newline
+"aacquant.h", line 40: warning: unrecognized #pragma
+"aacquant.h", line 47: warning: unrecognized #pragma
+"frame.h", line 63: warning: unrecognized #pragma
+"faaccfg.h", line 48: warning: unrecognized #pragma
+"faaccfg.h", line 120: warning: unrecognized #pragma
+"frame.h", line 158: warning: unrecognized #pragma
+"ltp.c", line 268: warning: enumerated type mixed with another type
+
+[midside.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/aac/libfaac/Debug" -d"_DEBUG" -mv6400 -@"Debug.lkf" "midside.c"
+
+[psychkni.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/aac/libfaac/Debug" -d"_DEBUG" -mv6400 -@"Debug.lkf" "psychkni.c"
+"psych.h", line 85: warning: last line of file ends without a newline
+"aacquant.h", line 40: warning: unrecognized #pragma
+"aacquant.h", line 47: warning: unrecognized #pragma
+"frame.h", line 63: warning: unrecognized #pragma
+"faaccfg.h", line 48: warning: unrecognized #pragma
+"faaccfg.h", line 120: warning: unrecognized #pragma
+"frame.h", line 158: warning: unrecognized #pragma
+"psychkni.c", line 224: warning: function declared implicitly
+"psychkni.c", line 236: warning: function declared implicitly
+
+[tns.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/aac/libfaac/Debug" -d"_DEBUG" -mv6400 -@"Debug.lkf" "tns.c"
+"psych.h", line 85: warning: last line of file ends without a newline
+"aacquant.h", line 40: warning: unrecognized #pragma
+"aacquant.h", line 47: warning: unrecognized #pragma
+"frame.h", line 63: warning: unrecognized #pragma
+"faaccfg.h", line 48: warning: unrecognized #pragma
+"faaccfg.h", line 120: warning: unrecognized #pragma
+"frame.h", line 158: warning: unrecognized #pragma
+"tns.c", line 155: warning: statement is unreachable
+"tns.c", line 40: warning: variable "tnsSupportedSamplingRates" was declared but never referenced
+
+[util.c] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\cl6x" -g -pdsw225 -fr"C:/AudioLib/thirtypart/aac/libfaac/Debug" -d"_DEBUG" -mv6400 -@"Debug.lkf" "util.c"
+
+[Archiving...] "C:\Program Files\Texas Instruments\C6000 Code Generation Tools 6.1.9\bin\ar6x" @"Debug.lkf"
+  ==>  new archive 'C:\AudioLib\thirtypart\aac\libfaac\Debug\AACEnc.lib'
+  ==>  building archive 'C:\AudioLib\thirtypart\aac\libfaac\Debug\AACEnc.lib'
+
+Build Complete,
+  0 Errors, 93 Warnings, 0 Remarks.

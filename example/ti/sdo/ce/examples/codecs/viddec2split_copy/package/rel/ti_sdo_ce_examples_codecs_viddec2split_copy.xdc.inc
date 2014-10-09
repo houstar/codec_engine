@@ -1,0 +1,14 @@
+VIDDEC2BACK_COPY.xdc
+VIDDEC2BACK_COPY.xs
+package.xs
+package.xdc
+makefile
+VIDDEC2FRONT_COPY.xdc
+package.bld
+VIDDEC2FRONT_COPY.xs
+package/package.bld.xml
+package/package.ext.xml
+package/package.rel.dot
+package/build.cfg
+package/package.xdc.inc
+package/package.cfg.xdc.inc

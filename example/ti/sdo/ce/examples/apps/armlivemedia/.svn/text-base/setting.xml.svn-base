@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="GB18030"?>
+<Setting>
+	<RecordMode>1</RecordMode>
+	<VideoFrameRate>25</VideoFrameRate>
+	<VideoWidth0>1280</VideoWidth0>
+	<VideoHeight0>720</VideoHeight0>
+	<CameraIP0>192.168.3.19</CameraIP0>
+	<VideoWidth1>1280</VideoWidth1>
+	<VideoHeight1>720</VideoHeight1>
+	<CameraIP1>192.168.3.20</CameraIP1>
+	<VideoWidth2>1024</VideoWidth2>
+	<VideoHeight2>768</VideoHeight2>
+	<CameraIP2>192.168.3.19</CameraIP2>
+	<OutFileName>out.mp4</OutFileName>
+	<VideoBitrate>1000</VideoBitrate>
+	<SaveWidth>1536</SaveWidth>
+	<SaveHeight>768</SaveHeight>
+	<AudioSampleRate>32000</AudioSampleRate>
+	<DisplayId>0</DisplayId>
+	<HeaderEnable>false</HeaderEnable>
+	<RtmpUrl>rtmp://192.168.0.250/live/k812</RtmpUrl>
+	<RtmpEnable>false</RtmpEnable>
+	<MtgIP>192.168.0.206</MtgIP>
+	<MtgEnable>false</MtgEnable>
+	<MtgPath>/roster/hikvison/192.168.3.19/</MtgPath>
+	<RecordConfId>200</RecordConfId>
+	<TeacherMtgPath>video/ic/teacher/1</TeacherMtgPath>
+	<TeacherConfId>201</TeacherConfId>
+	<StudentMtgPath>video/ic/student/1</StudentMtgPath>
+	<StudentConfId>202</StudentConfId>
+	<UnitIP>192.168.17.100</UnitIP>
+	<UnitPort>7101</UnitPort>
+	<OwnIP>192.168.0.214</OwnIP>
+	<OwnPort>7102</OwnPort>
+	<MtgIP>192.168.0.206</MtgIP>
+	<TempSavePath>/home/root/temp/</TempSavePath>
+	<SavePath>/home/root/</SavePath>
+	<RecordTemplate>/home/root/RecordTemplate.xml</RecordTemplate>
+	<ACCLoginName>able</ACCLoginName>
+	<ACCLoginPassword>able</ACCLoginPassword>
+	<LiveEncEnable>true</LiveEncEnable>
+	<LiveEncBitrate>1000000</LiveEncBitrate>
+	<AutoUploadFile>false</AutoUploadFile>
+	<AudioDelayFrame>0</AudioDelayFrame>
+	<HDMIDisplayEnable>false</HDMIDisplayEnable>
+</Setting>

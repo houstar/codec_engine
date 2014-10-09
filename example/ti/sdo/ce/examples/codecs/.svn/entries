@@ -1,0 +1,192 @@
+10
+
+dir
+318
+svn://192.168.19.205/DM8168/code/codec_engine/example/ti/sdo/ce/examples/codecs
+svn://192.168.19.205/DM8168
+
+
+
+2002-02-13T01:06:57.002411Z
+318
+wuminghao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+abc0f7d9-c163-4fcb-970d-994d21e33482
+
+g711
+dir
+
+faacenc
+dir
+
+sphdec1_copy
+dir
+
+videnc1_copy
+dir
+
+vidanalytics_copy
+dir
+
+speex
+dir
+
+aac
+dir
+
+auddec1_ires
+dir
+
+audenc_copy
+dir
+
+imgenc_copy
+dir
+
+sphdec_copy
+dir
+
+universal_copy
+dir
+
+videnc_copy
+dir
+
+imgdec1_copy
+dir
+
+package.xdc
+file
+
+
+
+
+2014-09-30T00:28:18.281464Z
+24f1acbc503255366864ee3ef859094a
+2014-05-20T06:16:54.242786Z
+190
+dengjun
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1976
+
+viddec1_copy
+dir
+
+speexenc
+dir
+
+audenc1_copy
+dir
+
+viddec3_copy
+dir
+
+auddec_copy
+dir
+
+vidtranscode_copy
+dir
+
+imgdec_copy
+dir
+
+videnc2_copy
+dir
+
+viddec2split_copy
+dir
+
+scale
+dir
+
+ec
+dir
+
+viddec_copy
+dir
+
+sphenc1_copy
+dir
+
+package
+dir
+
+auddec1_copy
+dir
+
+viddec2_copy
+dir
+
+sphenc_copy
+dir
+
+imgenc1_copy
+dir
+
+makefile
+file
+
+
+
+
+2014-09-30T00:28:18.281464Z
+fc5082554df953d5cf314edd35467ce6
+2014-05-20T06:16:54.242786Z
+190
+dengjun
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2582
+

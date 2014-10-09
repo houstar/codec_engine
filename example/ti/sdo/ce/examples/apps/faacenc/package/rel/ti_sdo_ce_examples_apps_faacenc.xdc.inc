@@ -1,0 +1,17 @@
+main_native.c
+local.~cfg
+package.xdc
+makefile
+app.~c
+in.dat
+package.bld
+local.cfg
+smain.h
+app.c
+main_BIOS.c
+package/package.bld.xml
+package/package.ext.xml
+package/package.rel.dot
+package/build.cfg
+package/package.xdc.inc
+package/package.cfg.xdc.inc

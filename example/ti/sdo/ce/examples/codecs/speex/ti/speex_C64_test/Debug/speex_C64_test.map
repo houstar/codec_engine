@@ -1,0 +1,758 @@
+******************************************************************************
+               TMS320C6x Linker PC v6.1.9                      
+******************************************************************************
+>> Linked Tue Nov 26 17:40:01 2013
+
+OUTPUT FILE NAME:   <./Debug/speex_C64_test.out>
+ENTRY POINT SYMBOL: "_c_int00"  address: 00018f60
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+----------------------  --------  ---------  --------  --------  ----  --------
+  VECRAM                00000000   00000200  00000000  00000200  RWIX
+  IPRAM                 00000200   00040000  00018fe0  00027020  RWIX
+  IDRAM                 00080000   00070000  0002849e  00047b62  RWIX
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.text      0    00000200    00018fe0     
+                  00000200    00004e20     nb_celp.obj (.text)
+                  00005020    00002a20     filters.obj (.text)
+                  00007a40    00001fa0     ltp.obj (.text)
+                  000099e0    00001880     cb_search.obj (.text)
+                  0000b260    00000ee0     lsp.obj (.text)
+                  0000c140    00000c40     rts6400.lib : pow.obj (.text:_pow)
+                  0000cd80    00000c20     quant_lsp.obj (.text)
+                  0000d9a0    00000b20     vbr.obj (.text)
+                  0000e4c0    00000a20     bits.obj (.text)
+                  0000eee0    00000500     rts6400.lib : fwrite.obj (.text:_fwrite)
+                  0000f3e0    000004e0     testenc-TI-C64x.obj (.text)
+                  0000f8c0    000004a0     rts6400.lib : _printfi.obj (.text:__setfield)
+                  0000fd60    00000400                 : _printfi.obj (.text:__getarg_diouxp)
+                  00010160    00000400     speex.obj (.text)
+                  00010560    000003e0     rts6400.lib : _printfi.obj (.text:__printfi)
+                  00010940    000003e0                 : _printfi.obj (.text:_ecvt)
+                  00010d20    000003c0                 : _printfi.obj (.text:__fcpy)
+                  000110e0    000003c0                 : _printfi.obj (.text:_fcvt)
+                  000114a0    000003c0                 : log.obj (.text:_log)
+                  00011860    00000380                 : memory.obj (.text:_realloc)
+                  00011be0    00000340                 : _printfi.obj (.text:__pconv_e)
+                  00011f20    00000340                 : _printfi.obj (.text:__pproc_fwp)
+                  00012260    00000320                 : frcdivd.obj (.text:__frcdivd)
+                  00012580    00000320                 : fputs.obj (.text:_fputs)
+                  000128a0    00000320     lpc.obj (.text)
+                  00012bc0    00000300     rts6400.lib : memory.obj (.text:_free)
+                  00012ec0    000002e0                 : fread.obj (.text:_fread)
+                  000131a0    000002a0     vq.obj (.text)
+                  00013440    00000280     rts6400.lib : imath64.obj (.text:__divull)
+                  000136c0    00000280                 : _printfi.obj (.text:__pproc_diouxp)
+                  00013940    00000260                 : _printfi.obj (.text:__pproc_str)
+                  00013ba0    00000260                 : ldexp.obj (.text:_ldexp)
+                  00013e00    00000260     speex_callbacks.obj (.text)
+                  00014060    00000240     rts6400.lib : frcaddd.obj (.text:__frcaddd)
+                  000142a0    00000220                 : _printfi.obj (.text:__mcpy)
+                  000144c0    00000200                 : trgdrv.obj (.text:_HOSTrename)
+                  000146c0    000001e0                 : fopen.obj (.text:__openfile)
+                  000148a0    000001e0                 : _printfi.obj (.text:__pproc_fge)
+                  00014a80    000001e0                 : lowlev.obj (.text:_open)
+                  00014c60    000001e0                 : setvbuf.obj (.text:_setvbuf)
+                  00014e40    000001c0                 : divd.obj (.text:__divd)
+                  00015000    000001c0                 : imath40.obj (.text:__divul)
+                  000151c0    000001c0                 : mpyd.obj (.text:__mpyd)
+                  00015380    000001c0                 : _printfi.obj (.text:__pconv_g)
+                  00015540    000001c0                 : frexp.obj (.text:_frexp)
+                  00015700    000001a0                 : memory.obj (.text:_malloc)
+                  000158a0    00000180                 : _printfi.obj (.text:__ltostr)
+                  00015a20    00000160                 : addd.obj (.text:__addd)
+                  00015b80    00000160                 : divf.obj (.text:__divf)
+                  00015ce0    00000160                 : frcdivf.obj (.text:__frcdivf)
+                  00015e40    00000160                 : round.obj (.text:__round)
+                  00015fa0    00000160                 : fputc.obj (.text:_fputc)
+                  00016100    00000140                 : _bufread.obj (.text:__buff_read)
+                  00016240    00000140                 : _printfi.obj (.text:__pproc_fflags)
+                  00016380    00000140                 : fclose.obj (.text:_fclose)
+                  000164c0    00000140                 : lowlev.obj (.text:_getdevice)
+                  00016600    00000120                 : trgdrv.obj (.text:_HOSTlseek)
+                  00016720    00000120                 : trgdrv.obj (.text:_HOSTopen)
+                  00016840    00000120                 : frcmpyd.obj (.text:__frcmpyd)
+                  00016960    00000120                 : fopen.obj (.text:__search_fp)
+                  00016a80    00000120                 : atoi.obj (.text:_atoi)
+                  00016ba0    00000100                 : autoinit.obj (.text:__auto_init)
+                  00016ca0    00000100                 : _printfi.obj (.text:__div)
+                  00016da0    00000100                 : divi.obj (.text:__divi)
+                  00016ea0    00000100                 : _printfi.obj (.text:__pconv_f)
+                  00016fa0    00000100                 : _io_perm.obj (.text:__wrt_ok)
+                  000170a0    00000100                 : lowlev.obj (.text:_close)
+                  000171a0    00000100                 : exit.obj (.text:_exit)
+                  000172a0    00000100                 : fseek.obj (.text:_fseek)
+                  000173a0    00000100                 : lowlev.obj (.text:_lseek)
+                  000174a0    00000100                 : ltoa.obj (.text:_ltoa)
+                  000175a0    00000100                 : memset.obj (.text:_memset)
+                  000176a0    00000100                 : lowlev.obj (.text:_read)
+                  000177a0    00000100                 : lowlev.obj (.text:_write)
+                  000178a0    000000e0                 : trgdrv.obj (.text:_HOSTread)
+                  00017980    000000e0                 : trgdrv.obj (.text:_HOSTunlink)
+                  00017a60    000000e0                 : trgdrv.obj (.text:_HOSTwrite)
+                  00017b40    000000e0                 : fopen.obj (.text:__cleanup)
+                  00017c20    000000e0                 : memcpy64.obj (.text:_memcpy)
+                  00017d00    000000e0                 : modf.obj (.text:_modf)
+                  00017de0    000000c0                 : trgdrv.obj (.text:_HOSTclose)
+                  00017ea0    000000c0                 : imath40.obj (.text:__divli)
+                  00017f60    000000c0                 : divu.obj (.text:__divu)
+                  00018020    000000c0                 : fflush.obj (.text:__doflush)
+                  000180e0    000000c0                 : _printfi.obj (.text:__ecpy)
+                  000181a0    000000c0                 : memory.obj (.text:_minsert)
+                  00018260    000000c0                 : memory.obj (.text:_mremove)
+                  00018320    000000c0                 : trgmsg.obj (.text:_readmsg)
+                  000183e0    000000c0                 : trgmsg.obj (.text:_writemsg)
+                  000184a0    000000a0                 : cmpd.obj (.text:__cmpd)
+                  00018540    000000a0                 : fixdi.obj (.text:__fixdi)
+                  000185e0    000000a0                 : fixdli.obj (.text:__fixdli)
+                  00018680    000000a0                 : fltlid.obj (.text:__fltlid)
+                  00018720    000000a0                 : mpyll.obj (.text:__mpyll)
+                  000187c0    000000a0                 : _io_perm.obj (.text:__rd_ok)
+                  00018860    000000a0                 : memory.obj (.text:_calloc)
+                  00018900    000000a0                 : lowlev.obj (.text:_finddevice)
+                  000189a0    000000a0                 : renormd.obj (.text:_renormd)
+                  00018a40    000000a0                 : lowlev.obj (.text:_tabinit)
+                  00018ae0    00000080                 : llshift.obj (.text:__llshl)
+                  00018b60    00000080                 : fopen.obj (.text:_fopen)
+                  00018be0    00000080                 : fprintf.obj (.text:_fprintf)
+                  00018c60    00000080                 : memccpy.obj (.text:_memccpy)
+                  00018ce0    00000080                 : memmov.obj (.text:_memmove)
+                  00018d60    00000080                 : lowlev.obj (.text:_unlink)
+                  00018de0    00000060                 : fltid.obj (.text:__fltid)
+                  00018e40    00000060                 : llshift.obj (.text:__llshru)
+                  00018ea0    00000060                 : imath40.obj (.text:__remli)
+                  00018f00    00000060                 : imath64.obj (.text:__subcull)
+                  00018f60    00000060                 : boot.obj (.text:_c_int00)
+                  00018fc0    00000040                 : args_main.obj (.text:__args_main)
+                  00019000    00000040                 : negd.obj (.text:__negd)
+                  00019040    00000040                 : subd.obj (.text:__subd)
+                  00019080    00000040                 : log10.obj (.text:_log10)
+                  000190c0    00000020                 : negll.obj (.text:__negll)
+                  000190e0    00000020                 : _lock.obj (.text:__nop)
+                  00019100    00000020                 : fprintf.obj (.text:__outc)
+                  00019120    00000020                 : fprintf.obj (.text:__outs)
+                  00019140    00000020                 : trunc.obj (.text:__trunc)
+                  00019160    00000020                 : exit.obj (.text:_abort)
+                  00019180    00000020                 : feof.obj (.text:_feof)
+                  000191a0    00000020                 : remove.obj (.text:_remove)
+                  000191c0    00000020                 : rewind.obj (.text:_rewind)
+
+.stack     0    00080000    00010000     UNINITIALIZED
+                  00080000    00000008     rts6400.lib : boot.obj (.stack)
+                  00080008    0000fff8     --HOLE--
+
+.sysmem    0    00090000    00010000     UNINITIALIZED
+                  00090000    00000008     rts6400.lib : memory.obj (.sysmem)
+                  00090008    0000fff8     --HOLE--
+
+.myheap    0    000a0000    00005208     UNINITIALIZED
+                  000a0000    00005208     testenc-TI-C64x.obj (.myheap)
+
+.const     0    000a5208    000026aa     
+                  000a5208    00000500     exc_5_256_table.obj (.const:_exc_5_256_table)
+                  000a5708    00000400     exc_8_128_table.obj (.const:_exc_8_128_table)
+                  000a5b08    00000328     modes.obj (.const)
+                  000a5e30    00000280     lsp_tables_nb.obj (.const:_cdbk_nb)
+                  000a60b0    00000280     exc_20_32_table.obj (.const:_exc_20_32_table)
+                  000a6330    00000200     gain_table.obj (.const:_gain_cdbk_nb)
+                  000a6530    000001cc     nb_celp.obj (.const:.string)
+                  000a66fc    00000004     speex_callbacks.obj (.const:.string)
+                  000a6700    00000190     window.obj (.const:_lpc_window)
+                  000a6890    0000018c     vbr.obj (.const:_vbr_nb_thresh)
+                  000a6a1c    00000150     bits.obj (.const:.string)
+                  000a6b6c    00000002     rts6400.lib : fputs.obj (.const)
+                  000a6b6e    00000002     --HOLE-- [fill = 0]
+                  000a6b70    00000140     lsp_tables_nb.obj (.const:_cdbk_nb_high1)
+                  000a6cb0    00000140     lsp_tables_nb.obj (.const:_cdbk_nb_high2)
+                  000a6df0    00000140     lsp_tables_nb.obj (.const:_cdbk_nb_low1)
+                  000a6f30    00000140     lsp_tables_nb.obj (.const:_cdbk_nb_low2)
+                  000a7070    00000140     exc_10_32_table.obj (.const:_exc_10_32_table)
+                  000a71b0    00000140     exc_5_64_table.obj (.const:_exc_5_64_table)
+                  000a72f0    00000101     rts6400.lib : ctype.obj (.const)
+                  000a73f1    00000003     --HOLE-- [fill = 0]
+                  000a73f4    000000e4     testenc-TI-C64x.obj (.const:.string)
+                  000a74d8    000000a0     exc_10_16_table.obj (.const:_exc_10_16_table)
+                  000a7578    00000080     gain_table_lbr.obj (.const:_gain_cdbk_lbr)
+                  000a75f8    00000080     nb_celp.obj (.const:_ol_gain_table)
+                  000a7678    00000060     quant_lsp.obj (.const:.string)
+                  000a76d8    00000060     sb_celp.obj (.const:.string)
+                  000a7738    00000060     speex.obj (.const:.string)
+                  000a7798    0000002a     filters.obj (.const:_shift_filt)
+                  000a77c2    00000023     rts6400.lib : _printfi.obj (.const)
+                  000a77e5    00000003     --HOLE-- [fill = 0]
+                  000a77e8    00000020     nb_celp.obj (.const:_wb_skip_table)
+                  000a7808    0000001e     filters.obj (.const:_$P$T0$1)
+                  000a7826    00000002     --HOLE-- [fill = 0]
+                  000a7828    0000001e     filters.obj (.const:_$P$T1$2)
+                  000a7846    00000002     --HOLE-- [fill = 0]
+                  000a7848    00000016     window.obj (.const:_lag_window)
+                  000a785e    00000002     --HOLE-- [fill = 0]
+                  000a7860    00000014     nb_celp.obj (.const:_attenuation)
+                  000a7874    00000004     --HOLE-- [fill = 0]
+                  000a7878    00000010     nb_celp.obj (.const:_exc_gain_quant_scal3)
+                  000a7888    0000000e     nb_celp.obj (.const:_exc_gain_quant_scal3_bound)
+                  000a7896    00000002     --HOLE-- [fill = 0]
+                  000a7898    0000000c     modes.obj (.const:.string)
+                  000a78a4    00000004     --HOLE-- [fill = 0]
+                  000a78a8    00000004     nb_celp.obj (.const:_exc_gain_quant_scal1)
+                  000a78ac    00000004     --HOLE-- [fill = 0]
+                  000a78b0    00000002     nb_celp.obj (.const:_exc_gain_quant_scal1_bound)
+
+.far       0    000a78b8    00000528     UNINITIALIZED
+                  000a78b8    00000194     rts6400.lib : defs.obj (.far)
+                  000a7a4c    00000004                 : errno.obj (.far)
+                  000a7a50    00000120                 : pow.obj (.far)
+                  000a7b70    000000d0                 : trgdrv.obj (.far)
+                  000a7c40    000000cc                 : lowlev.obj (.far)
+                  000a7d0c    00000004                 : fopen.obj (.far)
+                  000a7d10    00000090                 : exit.obj (.far)
+                  000a7da0    00000030                 : log.obj (.far)
+                  000a7dd0    00000008                 : _lock.obj (.far)
+                  000a7dd8    00000008                 : memory.obj (.far)
+
+.cinit     0    000a7de0    000002e4     
+                  000a7de0    00000140     rts6400.lib : pow.obj (.cinit)
+                  000a7f20    0000005c                 : defs.obj (.cinit)
+                  000a7f7c    00000004     --HOLE-- [fill = 0]
+                  000a7f80    0000005c                 : lowlev.obj (.cinit)
+                  000a7fdc    00000004     --HOLE-- [fill = 0]
+                  000a7fe0    00000040                 : log.obj (.cinit)
+                  000a8020    0000002c                 : exit.obj (.cinit)
+                  000a804c    00000004     --HOLE-- [fill = 0]
+                  000a8050    0000002c                 : memory.obj (.cinit)
+                  000a807c    00000004     --HOLE-- [fill = 0]
+                  000a8080    0000001c                 : _lock.obj (.cinit)
+                  000a809c    00000004     --HOLE-- [fill = 0]
+                  000a80a0    0000000c                 : errno.obj (.cinit)
+                  000a80ac    00000004     --HOLE-- [fill = 0]
+                  000a80b0    0000000c                 : fopen.obj (.cinit)
+                  000a80bc    00000004     --HOLE-- [fill = 0]
+                  000a80c0    00000004     (.pad.cinit) [fill = 0]
+
+.switch    0    000a80c4    000002b0     
+                  000a80c4    0000027c     nb_celp.obj (.switch)
+                  000a8340    00000024     speex.obj (.switch)
+                  000a8364    00000010     rts6400.lib : frcdivd.obj (.switch)
+
+.cio       0    000a8378    00000120     UNINITIALIZED
+                  000a8378    00000120     rts6400.lib : trgmsg.obj (.cio)
+
+.bss       0    000a8498    00000010     UNINITIALIZED
+                  000a8498    00000010     testenc-TI-C64x.obj (.bss)
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address    name
+--------   ----
+000a8498   $bss
+000a8498   .bss
+00000200   .text
+00019160   C$$EXIT
+00018480   C$$IO$$
+00017de0   _HOSTclose
+00016600   _HOSTlseek
+00016720   _HOSTopen
+000178a0   _HOSTread
+000144c0   _HOSTrename
+00017980   _HOSTunlink
+00017a60   _HOSTwrite
+000a8378   __CIOBUF_
+00010000   __STACK_SIZE
+00010000   __SYSMEM_SIZE
+ffffffff   ___TI_pprof_out_hndl
+ffffffff   ___TI_prof_data_size
+ffffffff   ___TI_prof_data_start
+ffffffff   ___binit__
+000a8498   ___bss__
+ffffffff   ___c_args__
+000a7de0   ___cinit__
+000a84a8   ___end__
+000191e0   ___etext__
+ffffffff   ___pinit__
+00000200   ___text__
+00015a20   __addd
+00018fc0   __args_main
+00016ba0   __auto_init
+00016100   __buff_read
+00017b40   __cleanup
+000a7d98   __cleanup_ptr
+000184a0   __cmpd
+000a72f0   __ctypes_
+00014e40   __divd
+00015b80   __divf
+00016da0   __divi
+00017ea0   __divli
+00017f60   __divu
+00015000   __divul
+00013440   __divull
+00018020   __doflush
+000a7d9c   __dtors_ptr
+00018540   __fixdi
+000185e0   __fixdli
+00018de0   __fltid
+00018680   __fltlid
+00014060   __frcaddd
+00012260   __frcdivd
+00015ce0   __frcdivf
+00016840   __frcmpyd
+000a7a48   __ft_end
+000a78b8   __ftable
+00018ae0   __llshl
+00018e40   __llshru
+000a7dd0   __lock
+000151c0   __mpyd
+00018720   __mpyll
+00019000   __negd
+000190c0   __negll
+000190e0   __nop
+00010560   __printfi
+000187c0   __rd_ok
+00018ea0   __remli
+00015e40   __round
+00012a44   __spx_autocorr
+000128a0   __spx_lpc
+00080000   __stack
+00018f00   __subcull
+00019040   __subd
+00090000   __sys_memory
+000a79a8   __tmpnams
+00019140   __trunc
+000a7dd4   __unlock
+00016fa0   __wrt_ok
+00019160   _abort
+00016a80   _atoi
+000a7860   _attenuation
+00007984   _bw_lpc
+00018f60   _c_int00
+00018860   _calloc
+000a5e30   _cdbk_nb
+000a6b70   _cdbk_nb_high1
+000a6cb0   _cdbk_nb_high2
+000a6df0   _cdbk_nb_low1
+000a6f30   _cdbk_nb_low2
+000170a0   _close
+00007678   _compute_impulse_response
+000074d4   _compute_rms
+00006660   _compute_rms16
+000a7a4c   _errno
+000a74d8   _exc_10_16_table
+000a7070   _exc_10_32_table
+000a60b0   _exc_20_32_table
+000a5208   _exc_5_256_table
+000a71b0   _exc_5_64_table
+000a5708   _exc_8_128_table
+000a78a8   _exc_gain_quant_scal1
+000a78b0   _exc_gain_quant_scal1_bound
+000a7878   _exc_gain_quant_scal3
+000a7888   _exc_gain_quant_scal3_bound
+000171a0   _exit
+00016380   _fclose
+00019180   _feof
+00005134   _filter_mem16
+000058a0   _fir_mem16
+00018b60   _fopen
+00009750   _forced_pitch_quant
+000096c0   _forced_pitch_unquant
+00018be0   _fprintf
+00015fa0   _fputc
+00012580   _fputs
+00012ec0   _fread
+00012bc0   _free
+00015540   _frexp
+000172a0   _fseek
+0000eee0   _fwrite
+000a7578   _gain_cdbk_lbr
+000a6330   _gain_cdbk_nb
+00007174   _highpass
+00005020   _iir_mem16
+00007a40   _inner_prod
+00006378   _interp_pitch
+000a7848   _lag_window
+00013ba0   _ldexp
+000114a0   _log
+00019080   _log10
+0000b9e8   _lpc_to_lsp
+000a6700   _lpc_window
+000173a0   _lseek
+0000b94c   _lsp_enforce_margin
+0000b854   _lsp_interpolate
+0000d978   _lsp_quant_high
+0000d648   _lsp_quant_lbr
+0000d28c   _lsp_quant_nb
+0000b260   _lsp_to_lpc
+0000d0ac   _lsp_unquant_high
+0000cf48   _lsp_unquant_lbr
+0000cd80   _lsp_unquant_nb
+000174a0   _ltoa
+0000f3e0   _main
+00015700   _malloc
+00018c60   _memccpy
+00017c20   _memcpy
+00018ce0   _memmove
+000175a0   _memset
+00017d00   _modf
+0000696c   _multicomb
+00003750   _nb_decode
+00003254   _nb_decoder_ctl
+00003204   _nb_decoder_destroy
+00002fa0   _nb_decoder_init
+00000d80   _nb_encode
+00000634   _nb_encoder_ctl
+00000574   _nb_encoder_destroy
+00000200   _nb_encoder_init
+000104b8   _nb_mode_query
+0000b164   _noise_codebook_quant
+0000b09c   _noise_codebook_unquant
+000062ac   _normalize16
+000a75f8   _ol_gain_table
+00014a80   _open
+00007e90   _open_loop_nbest_pitch
+000091f0   _pitch_search_3tap
+00007ba0   _pitch_unquant_3tap
+00007ad0   _pitch_xcorr
+0000c140   _pow
+00015fa0   _putc
+00006048   _qmf_decomp
+00005c54   _qmf_synth
+000176a0   _read
+00018320   _readmsg
+00011860   _realloc
+000191a0   _remove
+000189a0   _renormd
+000059a0   _residue_percep_zero16
+000191c0   _rewind
+00005834   _sanitize_values32
+000133e4   _scal_quant
+000133a4   _scal_quant32
+00014c60   _setvbuf
+000a7798   _shift_filt
+0000560c   _signal_div
+00005560   _signal_mul
+0000ee80   _speex_bits_advance
+0000ee60   _speex_bits_destroy
+0000ee08   _speex_bits_init
+0000edec   _speex_bits_init_buffer
+0000e720   _speex_bits_insert_terminator
+0000ede4   _speex_bits_nbytes
+0000e56c   _speex_bits_pack
+0000ed94   _speex_bits_peek
+0000ed10   _speex_bits_peek_unsigned
+0000ebe4   _speex_bits_read_from
+0000ea40   _speex_bits_read_whole_bytes
+0000ea14   _speex_bits_remaining
+0000e9f8   _speex_bits_reset
+0000e9ec   _speex_bits_rewind
+0000e9d4   _speex_bits_set_bit_buffer
+0000e918   _speex_bits_unpack_signed
+0000e870   _speex_bits_unpack_unsigned
+0000e774   _speex_bits_write
+0000e4c0   _speex_bits_write_whole_bytes
+00010420   _speex_decode
+00010408   _speex_decode_int
+000103f0   _speex_decode_native
+000103d8   _speex_decoder_ctl
+000103c4   _speex_decoder_destroy
+000103a8   _speex_decoder_init
+0001400c   _speex_default_user_handler
+00010270   _speex_encode
+00010258   _speex_encode_int
+00010244   _speex_encode_native
+0001022c   _speex_encoder_ctl
+00010214   _speex_encoder_destroy
+00010204   _speex_encoder_init
+00013f70   _speex_inband_handler
+00010160   _speex_lib_ctl
+000a5dfc   _speex_nb_mode
+00013f34   _speex_std_char_handler
+00013f04   _speex_std_enh_request_handler
+00013ed0   _speex_std_high_mode_request_handler
+00013ea0   _speex_std_low_mode_request_handler
+00013e6c   _speex_std_mode_request_handler
+00013e30   _speex_std_vbr_quality_request_handler
+00013e00   _speex_std_vbr_request_handler
+0000a3f4   _split_cb_search_shape_sign
+000099e0   _split_cb_shape_sign_unquant
+000a849c   _spxGlobalHeapEnd
+000a8498   _spxGlobalHeapPtr
+000a84a4   _spxGlobalScratchEnd
+000a84a0   _spxGlobalScratchPtr
+00005294   _syn_percep_zero16
+00018d60   _unlink
+0000da90   _vbr_analysis
+0000da8c   _vbr_destroy
+0000d9a0   _vbr_init
+000a6890   _vbr_nb_thresh
+000132b0   _vq_nbest
+000131a0   _vq_nbest_sign
+000177a0   _write
+000183e0   _writemsg
+ffffffff   binit
+000a7de0   cinit
+000a84a8   end
+000191e0   etext
+ffffffff   pinit
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address    name
+--------   ----
+00000200   .text
+00000200   ___text__
+00000200   _nb_encoder_init
+00000574   _nb_encoder_destroy
+00000634   _nb_encoder_ctl
+00000d80   _nb_encode
+00002fa0   _nb_decoder_init
+00003204   _nb_decoder_destroy
+00003254   _nb_decoder_ctl
+00003750   _nb_decode
+00005020   _iir_mem16
+00005134   _filter_mem16
+00005294   _syn_percep_zero16
+00005560   _signal_mul
+0000560c   _signal_div
+00005834   _sanitize_values32
+000058a0   _fir_mem16
+000059a0   _residue_percep_zero16
+00005c54   _qmf_synth
+00006048   _qmf_decomp
+000062ac   _normalize16
+00006378   _interp_pitch
+00006660   _compute_rms16
+0000696c   _multicomb
+00007174   _highpass
+000074d4   _compute_rms
+00007678   _compute_impulse_response
+00007984   _bw_lpc
+00007a40   _inner_prod
+00007ad0   _pitch_xcorr
+00007ba0   _pitch_unquant_3tap
+00007e90   _open_loop_nbest_pitch
+000091f0   _pitch_search_3tap
+000096c0   _forced_pitch_unquant
+00009750   _forced_pitch_quant
+000099e0   _split_cb_shape_sign_unquant
+0000a3f4   _split_cb_search_shape_sign
+0000b09c   _noise_codebook_unquant
+0000b164   _noise_codebook_quant
+0000b260   _lsp_to_lpc
+0000b854   _lsp_interpolate
+0000b94c   _lsp_enforce_margin
+0000b9e8   _lpc_to_lsp
+0000c140   _pow
+0000cd80   _lsp_unquant_nb
+0000cf48   _lsp_unquant_lbr
+0000d0ac   _lsp_unquant_high
+0000d28c   _lsp_quant_nb
+0000d648   _lsp_quant_lbr
+0000d978   _lsp_quant_high
+0000d9a0   _vbr_init
+0000da8c   _vbr_destroy
+0000da90   _vbr_analysis
+0000e4c0   _speex_bits_write_whole_bytes
+0000e56c   _speex_bits_pack
+0000e720   _speex_bits_insert_terminator
+0000e774   _speex_bits_write
+0000e870   _speex_bits_unpack_unsigned
+0000e918   _speex_bits_unpack_signed
+0000e9d4   _speex_bits_set_bit_buffer
+0000e9ec   _speex_bits_rewind
+0000e9f8   _speex_bits_reset
+0000ea14   _speex_bits_remaining
+0000ea40   _speex_bits_read_whole_bytes
+0000ebe4   _speex_bits_read_from
+0000ed10   _speex_bits_peek_unsigned
+0000ed94   _speex_bits_peek
+0000ede4   _speex_bits_nbytes
+0000edec   _speex_bits_init_buffer
+0000ee08   _speex_bits_init
+0000ee60   _speex_bits_destroy
+0000ee80   _speex_bits_advance
+0000eee0   _fwrite
+0000f3e0   _main
+00010000   __STACK_SIZE
+00010000   __SYSMEM_SIZE
+00010160   _speex_lib_ctl
+00010204   _speex_encoder_init
+00010214   _speex_encoder_destroy
+0001022c   _speex_encoder_ctl
+00010244   _speex_encode_native
+00010258   _speex_encode_int
+00010270   _speex_encode
+000103a8   _speex_decoder_init
+000103c4   _speex_decoder_destroy
+000103d8   _speex_decoder_ctl
+000103f0   _speex_decode_native
+00010408   _speex_decode_int
+00010420   _speex_decode
+000104b8   _nb_mode_query
+00010560   __printfi
+000114a0   _log
+00011860   _realloc
+00012260   __frcdivd
+00012580   _fputs
+000128a0   __spx_lpc
+00012a44   __spx_autocorr
+00012bc0   _free
+00012ec0   _fread
+000131a0   _vq_nbest_sign
+000132b0   _vq_nbest
+000133a4   _scal_quant32
+000133e4   _scal_quant
+00013440   __divull
+00013ba0   _ldexp
+00013e00   _speex_std_vbr_request_handler
+00013e30   _speex_std_vbr_quality_request_handler
+00013e6c   _speex_std_mode_request_handler
+00013ea0   _speex_std_low_mode_request_handler
+00013ed0   _speex_std_high_mode_request_handler
+00013f04   _speex_std_enh_request_handler
+00013f34   _speex_std_char_handler
+00013f70   _speex_inband_handler
+0001400c   _speex_default_user_handler
+00014060   __frcaddd
+000144c0   _HOSTrename
+00014a80   _open
+00014c60   _setvbuf
+00014e40   __divd
+00015000   __divul
+000151c0   __mpyd
+00015540   _frexp
+00015700   _malloc
+00015a20   __addd
+00015b80   __divf
+00015ce0   __frcdivf
+00015e40   __round
+00015fa0   _fputc
+00015fa0   _putc
+00016100   __buff_read
+00016380   _fclose
+00016600   _HOSTlseek
+00016720   _HOSTopen
+00016840   __frcmpyd
+00016a80   _atoi
+00016ba0   __auto_init
+00016da0   __divi
+00016fa0   __wrt_ok
+000170a0   _close
+000171a0   _exit
+000172a0   _fseek
+000173a0   _lseek
+000174a0   _ltoa
+000175a0   _memset
+000176a0   _read
+000177a0   _write
+000178a0   _HOSTread
+00017980   _HOSTunlink
+00017a60   _HOSTwrite
+00017b40   __cleanup
+00017c20   _memcpy
+00017d00   _modf
+00017de0   _HOSTclose
+00017ea0   __divli
+00017f60   __divu
+00018020   __doflush
+00018320   _readmsg
+000183e0   _writemsg
+00018480   C$$IO$$
+000184a0   __cmpd
+00018540   __fixdi
+000185e0   __fixdli
+00018680   __fltlid
+00018720   __mpyll
+000187c0   __rd_ok
+00018860   _calloc
+000189a0   _renormd
+00018ae0   __llshl
+00018b60   _fopen
+00018be0   _fprintf
+00018c60   _memccpy
+00018ce0   _memmove
+00018d60   _unlink
+00018de0   __fltid
+00018e40   __llshru
+00018ea0   __remli
+00018f00   __subcull
+00018f60   _c_int00
+00018fc0   __args_main
+00019000   __negd
+00019040   __subd
+00019080   _log10
+000190c0   __negll
+000190e0   __nop
+00019140   __trunc
+00019160   C$$EXIT
+00019160   _abort
+00019180   _feof
+000191a0   _remove
+000191c0   _rewind
+000191e0   ___etext__
+000191e0   etext
+00080000   __stack
+00090000   __sys_memory
+000a5208   _exc_5_256_table
+000a5708   _exc_8_128_table
+000a5dfc   _speex_nb_mode
+000a5e30   _cdbk_nb
+000a60b0   _exc_20_32_table
+000a6330   _gain_cdbk_nb
+000a6700   _lpc_window
+000a6890   _vbr_nb_thresh
+000a6b70   _cdbk_nb_high1
+000a6cb0   _cdbk_nb_high2
+000a6df0   _cdbk_nb_low1
+000a6f30   _cdbk_nb_low2
+000a7070   _exc_10_32_table
+000a71b0   _exc_5_64_table
+000a72f0   __ctypes_
+000a74d8   _exc_10_16_table
+000a7578   _gain_cdbk_lbr
+000a75f8   _ol_gain_table
+000a7798   _shift_filt
+000a7848   _lag_window
+000a7860   _attenuation
+000a7878   _exc_gain_quant_scal3
+000a7888   _exc_gain_quant_scal3_bound
+000a78a8   _exc_gain_quant_scal1
+000a78b0   _exc_gain_quant_scal1_bound
+000a78b8   __ftable
+000a79a8   __tmpnams
+000a7a48   __ft_end
+000a7a4c   _errno
+000a7d98   __cleanup_ptr
+000a7d9c   __dtors_ptr
+000a7dd0   __lock
+000a7dd4   __unlock
+000a7de0   ___cinit__
+000a7de0   cinit
+000a8378   __CIOBUF_
+000a8498   $bss
+000a8498   .bss
+000a8498   ___bss__
+000a8498   _spxGlobalHeapPtr
+000a849c   _spxGlobalHeapEnd
+000a84a0   _spxGlobalScratchPtr
+000a84a4   _spxGlobalScratchEnd
+000a84a8   ___end__
+000a84a8   end
+ffffffff   ___TI_pprof_out_hndl
+ffffffff   ___TI_prof_data_size
+ffffffff   ___TI_prof_data_start
+ffffffff   ___binit__
+ffffffff   ___c_args__
+ffffffff   ___pinit__
+ffffffff   binit
+ffffffff   pinit
+
+[247 symbols]

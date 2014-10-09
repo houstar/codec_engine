@@ -1,0 +1,5 @@
+#pragma once
+
+#define FLAG_ICCONTROL_EXIT         0x00020061
+#define FLAG_ICCONTROL_POWEROFF     0x00020062
+#define FLAG_ICCONTROL_REBOOT       0x00020063

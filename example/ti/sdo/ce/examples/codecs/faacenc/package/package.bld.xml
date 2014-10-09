@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  This file conforms to the DTD xdc/bld/build.dtd -->
+<package name="ti.sdo.ce.examples.codecs.faacenc" version="1, 0, 0" producerId="undefined">
+    <units>
+        <module name="faacenc"/>
+    </units>
+    <sources>
+        <srcFile name="package/package_ti.sdo.ce.examples.codecs.faacenc.c"/>
+        <srcFile name="faacenc_copy.c"/>
+        <srcFile name="aacquant.c"/>
+        <srcFile name="bitstream.c"/>
+        <srcFile name="faacenc.c"/>
+        <srcFile name="filtbank.c"/>
+        <srcFile name="huffman.c"/>
+        <srcFile name="midside.c"/>
+        <srcFile name="tns.c"/>
+        <srcFile name="backpred.c"/>
+        <srcFile name="channels.c"/>
+        <srcFile name="fft.c"/>
+        <srcFile name="frame.c"/>
+        <srcFile name="ltp.c"/>
+        <srcFile name="psychkni.c"/>
+        <srcFile name="util.c"/>
+        <srcFile name="kiss_fft/kiss_fft.c"/>
+        <srcFile name="kiss_fft/kiss_fftr.c"/>
+    </sources>
+    <configscripts>
+    </configscripts>
+    <makefiles>
+        <srcFile name="package.mak" src="package.bld"/>
+        <srcFile name="package/package.xdc.dep" src="package.xdc"/>
+        <srcFile name="package/package.cfg.dep" src="package.xdc"/>
+        <srcFile name="lib/faacenc.a674.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/faacenc/package/package_ti.sdo.ce.examples.codecs.faacenc.o674.dep" src="package/package_ti.sdo.ce.examples.codecs.faacenc.c"/>
+        <srcFile name="package/lib/lib/faacenc/faacenc_copy.o674.dep" src="faacenc_copy.c"/>
+        <srcFile name="package/lib/lib/faacenc/aacquant.o674.dep" src="aacquant.c"/>
+        <srcFile name="package/lib/lib/faacenc/bitstream.o674.dep" src="bitstream.c"/>
+        <srcFile name="package/lib/lib/faacenc/faacenc.o674.dep" src="faacenc.c"/>
+        <srcFile name="package/lib/lib/faacenc/filtbank.o674.dep" src="filtbank.c"/>
+        <srcFile name="package/lib/lib/faacenc/huffman.o674.dep" src="huffman.c"/>
+        <srcFile name="package/lib/lib/faacenc/midside.o674.dep" src="midside.c"/>
+        <srcFile name="package/lib/lib/faacenc/tns.o674.dep" src="tns.c"/>
+        <srcFile name="package/lib/lib/faacenc/backpred.o674.dep" src="backpred.c"/>
+        <srcFile name="package/lib/lib/faacenc/channels.o674.dep" src="channels.c"/>
+        <srcFile name="package/lib/lib/faacenc/fft.o674.dep" src="fft.c"/>
+        <srcFile name="package/lib/lib/faacenc/frame.o674.dep" src="frame.c"/>
+        <srcFile name="package/lib/lib/faacenc/ltp.o674.dep" src="ltp.c"/>
+        <srcFile name="package/lib/lib/faacenc/psychkni.o674.dep" src="psychkni.c"/>
+        <srcFile name="package/lib/lib/faacenc/util.o674.dep" src="util.c"/>
+        <srcFile name="package/lib/lib/faacenc/kiss_fft/kiss_fft.o674.dep" src="kiss_fft/kiss_fft.c"/>
+        <srcFile name="package/lib/lib/faacenc/kiss_fft/kiss_fftr.o674.dep" src="kiss_fft/kiss_fftr.c"/>
+        <srcFile name="lib/faacenc.ae674.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/faacenc/package/package_ti.sdo.ce.examples.codecs.faacenc.oe674.dep" src="package/package_ti.sdo.ce.examples.codecs.faacenc.c"/>
+        <srcFile name="package/lib/lib/faacenc/faacenc_copy.oe674.dep" src="faacenc_copy.c"/>
+        <srcFile name="package/lib/lib/faacenc/aacquant.oe674.dep" src="aacquant.c"/>
+        <srcFile name="package/lib/lib/faacenc/bitstream.oe674.dep" src="bitstream.c"/>
+        <srcFile name="package/lib/lib/faacenc/faacenc.oe674.dep" src="faacenc.c"/>
+        <srcFile name="package/lib/lib/faacenc/filtbank.oe674.dep" src="filtbank.c"/>
+        <srcFile name="package/lib/lib/faacenc/huffman.oe674.dep" src="huffman.c"/>
+        <srcFile name="package/lib/lib/faacenc/midside.oe674.dep" src="midside.c"/>
+        <srcFile name="package/lib/lib/faacenc/tns.oe674.dep" src="tns.c"/>
+        <srcFile name="package/lib/lib/faacenc/backpred.oe674.dep" src="backpred.c"/>
+        <srcFile name="package/lib/lib/faacenc/channels.oe674.dep" src="channels.c"/>
+        <srcFile name="package/lib/lib/faacenc/fft.oe674.dep" src="fft.c"/>
+        <srcFile name="package/lib/lib/faacenc/frame.oe674.dep" src="frame.c"/>
+        <srcFile name="package/lib/lib/faacenc/ltp.oe674.dep" src="ltp.c"/>
+        <srcFile name="package/lib/lib/faacenc/psychkni.oe674.dep" src="psychkni.c"/>
+        <srcFile name="package/lib/lib/faacenc/util.oe674.dep" src="util.c"/>
+        <srcFile name="package/lib/lib/faacenc/kiss_fft/kiss_fft.oe674.dep" src="kiss_fft/kiss_fft.c"/>
+        <srcFile name="package/lib/lib/faacenc/kiss_fft/kiss_fftr.oe674.dep" src="kiss_fft/kiss_fftr.c"/>
+        <srcFile name="package/rel/ti_sdo_ce_examples_codecs_faacenc.tar.dep" src="package/rel/ti_sdo_ce_examples_codecs_faacenc.xdc.inc"/>
+    </makefiles>
+    <targets>
+        <target name="ti.targets.C674"
+            version="ti.targets.C674{1,0,7.3,4"
+            platform="ti.platforms.evmDA830"
+            isa="674"
+            suffix="674"
+            rootDir="/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4"
+            os="undefined"
+            rts="ti.targets.rts6000">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.elf.C674"
+            version="ti.targets.elf.C674{1,0,7.3,4"
+            platform="ti.platforms.evmDA830"
+            isa="674"
+            suffix="e674"
+            rootDir="/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4"
+            os="undefined"
+            rts="ti.targets.rts6000">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+    </targets>
+    <libraries>
+    <library name="lib/faacenc"
+        pname="lib/faacenc.a674"
+        profile="release"
+        target="ti.targets.C674"/>
+    <library name="lib/faacenc"
+        pname="lib/faacenc.ae674"
+        profile="release"
+        target="ti.targets.elf.C674"/>
+    </libraries>
+    <configurations>
+    </configurations>
+    <executables>
+    </executables>
+    <tests>
+    </tests>
+    <releases relDir="package/rel/">
+    <release name="ti_sdo_ce_examples_codecs_faacenc"
+        pname="ti_sdo_ce_examples_codecs_faacenc.tar"
+        label="default"
+    >
+        <file name="package/package.bld.xml"/>
+        <file name="package/package.ext.xml"/>
+        <file name="package/package.rel.dot"/>
+        <file name="package/build.cfg"/>
+        <file name="package/package.xdc.inc"/>
+        <file name="package/package.cfg.xdc.inc"/>
+        <file name="lib/faacenc.a674"/>
+        <file name="lib/faacenc.ae674"/>
+    </release>
+    </releases>
+    <repositories>
+    </repositories>
+</package>

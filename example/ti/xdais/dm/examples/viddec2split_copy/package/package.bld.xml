@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  This file conforms to the DTD xdc/bld/build.dtd -->
+<package name="ti.xdais.dm.examples.viddec2split_copy" version="1, 0, 0" producerId="undefined">
+    <units>
+    </units>
+    <sources>
+        <srcFile name="package/package_ti.xdais.dm.examples.viddec2split_copy.c"/>
+        <srcFile name="viddec2front_copy.c"/>
+        <srcFile name="viddec2back_copy.c"/>
+    </sources>
+    <configscripts>
+    </configscripts>
+    <makefiles>
+        <srcFile name="package.mak" src="package.bld"/>
+        <srcFile name="package/package.xdc.dep" src="package.xdc"/>
+        <srcFile name="package/package.cfg.dep" src="package.xdc"/>
+        <srcFile name="lib/debug/viddec2split_copy.a674.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/debug/viddec2split_copy/package/package_ti.xdais.dm.examples.viddec2split_copy.o674.dep" src="package/package_ti.xdais.dm.examples.viddec2split_copy.c"/>
+        <srcFile name="package/lib/lib/debug/viddec2split_copy/viddec2front_copy.o674.dep" src="viddec2front_copy.c"/>
+        <srcFile name="package/lib/lib/debug/viddec2split_copy/viddec2back_copy.o674.dep" src="viddec2back_copy.c"/>
+        <srcFile name="lib/release/viddec2split_copy.a674.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/release/viddec2split_copy/package/package_ti.xdais.dm.examples.viddec2split_copy.o674.dep" src="package/package_ti.xdais.dm.examples.viddec2split_copy.c"/>
+        <srcFile name="package/lib/lib/release/viddec2split_copy/viddec2front_copy.o674.dep" src="viddec2front_copy.c"/>
+        <srcFile name="package/lib/lib/release/viddec2split_copy/viddec2back_copy.o674.dep" src="viddec2back_copy.c"/>
+        <srcFile name="lib/debug/viddec2split_copy.ae674.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/debug/viddec2split_copy/package/package_ti.xdais.dm.examples.viddec2split_copy.oe674.dep" src="package/package_ti.xdais.dm.examples.viddec2split_copy.c"/>
+        <srcFile name="package/lib/lib/debug/viddec2split_copy/viddec2front_copy.oe674.dep" src="viddec2front_copy.c"/>
+        <srcFile name="package/lib/lib/debug/viddec2split_copy/viddec2back_copy.oe674.dep" src="viddec2back_copy.c"/>
+        <srcFile name="lib/release/viddec2split_copy.ae674.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/release/viddec2split_copy/package/package_ti.xdais.dm.examples.viddec2split_copy.oe674.dep" src="package/package_ti.xdais.dm.examples.viddec2split_copy.c"/>
+        <srcFile name="package/lib/lib/release/viddec2split_copy/viddec2front_copy.oe674.dep" src="viddec2front_copy.c"/>
+        <srcFile name="package/lib/lib/release/viddec2split_copy/viddec2back_copy.oe674.dep" src="viddec2back_copy.c"/>
+        <srcFile name="package/rel/ti_xdais_dm_examples_viddec2split_copy.tar.dep" src="package/rel/ti_xdais_dm_examples_viddec2split_copy.xdc.inc"/>
+    </makefiles>
+    <targets>
+        <target name="ti.targets.C674"
+            version="ti.targets.C674{1,0,7.3,4"
+            platform="ti.platforms.evmDA830"
+            isa="674"
+            suffix="674"
+            rootDir="/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4"
+            os="undefined"
+            rts="ti.targets.rts6000">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.elf.C674"
+            version="ti.targets.elf.C674{1,0,7.3,4"
+            platform="ti.platforms.evmDA830"
+            isa="674"
+            suffix="e674"
+            rootDir="/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4"
+            os="undefined"
+            rts="ti.targets.rts6000">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+    </targets>
+    <libraries>
+    <library name="lib/debug/viddec2split_copy"
+        pname="lib/debug/viddec2split_copy.a674"
+        profile="debug"
+        target="ti.targets.C674"/>
+    <library name="lib/release/viddec2split_copy"
+        pname="lib/release/viddec2split_copy.a674"
+        profile="release"
+        target="ti.targets.C674"/>
+    <library name="lib/debug/viddec2split_copy"
+        pname="lib/debug/viddec2split_copy.ae674"
+        profile="debug"
+        target="ti.targets.elf.C674"/>
+    <library name="lib/release/viddec2split_copy"
+        pname="lib/release/viddec2split_copy.ae674"
+        profile="release"
+        target="ti.targets.elf.C674"/>
+    </libraries>
+    <configurations>
+    </configurations>
+    <executables>
+    </executables>
+    <tests>
+    </tests>
+    <releases relDir="package/rel/">
+    <release name="ti_xdais_dm_examples_viddec2split_copy"
+        pname="ti_xdais_dm_examples_viddec2split_copy.tar"
+        label="default"
+    >
+        <file name="package/package.bld.xml"/>
+        <file name="package/package.ext.xml"/>
+        <file name="package/package.rel.dot"/>
+        <file name="package/build.cfg"/>
+        <file name="package/package.xdc.inc"/>
+        <file name="viddec2front_copy_ti.h"/>
+        <file name="viddec2back_copy_ti.h"/>
+        <file name="pjt/viddec2split_copy.pjt"/>
+        <file name="package.bld"/>
+        <file name="viddec2front_copy_ti_priv.h"/>
+        <file name="viddec2back_copy_ti_priv.h"/>
+        <file name="lib/debug/viddec2split_copy.a674_front.qti"/>
+        <file name="lib/debug/viddec2split_copy.a674_back.qti"/>
+        <file name="lib/release/viddec2split_copy.a674_front.qti"/>
+        <file name="lib/release/viddec2split_copy.a674_back.qti"/>
+        <file name="lib/debug/viddec2split_copy.ae674_front.qti"/>
+        <file name="lib/debug/viddec2split_copy.ae674_back.qti"/>
+        <file name="lib/release/viddec2split_copy.ae674_front.qti"/>
+        <file name="lib/release/viddec2split_copy.ae674_back.qti"/>
+        <file name="package/package.cfg.xdc.inc"/>
+        <file name="lib/debug/viddec2split_copy.a674"/>
+        <file name="package/package_ti.xdais.dm.examples.viddec2split_copy.c"/>
+        <file name="viddec2front_copy.c"/>
+        <file name="viddec2back_copy.c"/>
+        <file name="lib/release/viddec2split_copy.a674"/>
+        <file name="lib/debug/viddec2split_copy.ae674"/>
+        <file name="lib/release/viddec2split_copy.ae674"/>
+    </release>
+    </releases>
+    <repositories>
+    </repositories>
+</package>

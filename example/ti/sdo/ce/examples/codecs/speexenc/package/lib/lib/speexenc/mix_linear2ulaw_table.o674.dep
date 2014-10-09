@@ -1,0 +1,3 @@
+package/lib/lib/speexenc/mix_linear2ulaw_table.o674: mix_linear2ulaw_table.c ./mix_linear2ulaw_table.h 
+mix_linear2ulaw_table.c:
+./mix_linear2ulaw_table.h:

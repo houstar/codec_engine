@@ -1,0 +1,4 @@
+package/lib/lib/speexenc/mixer.o674: mixer.c ./mixer.h ./mix_linear2ulaw_table.h 
+mixer.c:
+./mixer.h:
+./mix_linear2ulaw_table.h:

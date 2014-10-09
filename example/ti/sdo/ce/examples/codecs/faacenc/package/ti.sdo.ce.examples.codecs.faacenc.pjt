@@ -1,0 +1,26 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+[Project Settings]
+ProjectName="ti.sdo.ce.examples.codecs.faacenc"
+ProjectType=External
+CPUFamily=TMS320C67XX
+Tool="CustomBuilder"
+Config="Package"
+[Source Files]
+Source="../package/package_ti.sdo.ce.examples.codecs.faacenc.c"
+Source="../faacenc_copy.c"
+Source="../aacquant.c"
+Source="../bitstream.c"
+Source="../faacenc.c"
+Source="../filtbank.c"
+Source="../huffman.c"
+Source="../midside.c"
+Source="../tns.c"
+Source="../backpred.c"
+Source="../channels.c"
+Source="../fft.c"
+Source="../frame.c"
+Source="../ltp.c"
+Source="../psychkni.c"
+Source="../util.c"
+Source="../kiss_fft/kiss_fft.c"
+Source="../kiss_fft/kiss_fftr.c"

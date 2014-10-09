@@ -1,0 +1,13 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+[Project Settings]
+ProjectName="ti.sdo.ce.examples.codecs.speexenc"
+ProjectType=External
+CPUFamily=TMS320C67XX
+Tool="CustomBuilder"
+Config="Package"
+[Source Files]
+Source="../package/package_ti.sdo.ce.examples.codecs.speexenc.c"
+Source="../speexenc_copy.c"
+Source="../SpeexCod.c"
+Source="../mixer.c"
+Source="../mix_linear2ulaw_table.c"

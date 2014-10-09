@@ -1,0 +1,12 @@
+AUDDEC1_IRES.xdc
+package.xs
+package.xdc
+makefile
+package.bld
+AUDDEC1_IRES.xs
+package/package.bld.xml
+package/package.ext.xml
+package/package.rel.dot
+package/build.cfg
+package/package.xdc.inc
+package/package.cfg.xdc.inc

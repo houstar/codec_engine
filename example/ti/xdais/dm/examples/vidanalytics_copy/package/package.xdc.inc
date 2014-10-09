@@ -1,0 +1,12 @@
+package.xdc
+package.xs
+package/ti.xdais.dm.examples.vidanalytics_copy.sch
+package/.vers_g180
+package/.vers_r170
+package/.vers_b150
+package/.xdc-y25
+package/ti_xdais_dm_examples_vidanalytics_copy.java
+package/ti_xdais_dm_examples_vidanalytics_copy.class
+package/package_ti.xdais.dm.examples.vidanalytics_copy.c
+package/package.defs.h
+package/ti.xdais.dm.examples.vidanalytics_copy.ccs

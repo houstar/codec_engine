@@ -1,0 +1,18 @@
+package/lib/lib/release/vidtranscode_copy/vidtranscode_copy.oe674: vidtranscode_copy.c /home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/packages/xdc/std.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/string.h /home/houstar/ezsdk/component-sources/xdais_7_22_00_03/packages/ti/xdais/dm/ividtranscode.h ./vidtranscode_copy_ti.h ./vidtranscode_copy_ti_priv.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stdarg.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stddef.h /home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/packages/ti/targets/elf/std.h /home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/packages/ti/targets/select.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/linkage.h /home/houstar/ezsdk/component-sources/xdais_7_22_00_03/packages/ti/xdais/ialg.h /home/houstar/ezsdk/component-sources/xdais_7_22_00_03/packages/ti/xdais/xdas.h /home/houstar/ezsdk/component-sources/xdais_7_22_00_03/packages/ti/xdais/dm/xdm.h /home/houstar/ezsdk/component-sources/xdais_7_22_00_03/packages/ti/xdais/dm/ivideo.h /home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/packages/ti/targets/std.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stdint.h 
+vidtranscode_copy.c:
+/home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/packages/xdc/std.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/string.h:
+/home/houstar/ezsdk/component-sources/xdais_7_22_00_03/packages/ti/xdais/dm/ividtranscode.h:
+./vidtranscode_copy_ti.h:
+./vidtranscode_copy_ti_priv.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stdarg.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stddef.h:
+/home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/packages/ti/targets/elf/std.h:
+/home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/packages/ti/targets/select.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/linkage.h:
+/home/houstar/ezsdk/component-sources/xdais_7_22_00_03/packages/ti/xdais/ialg.h:
+/home/houstar/ezsdk/component-sources/xdais_7_22_00_03/packages/ti/xdais/xdas.h:
+/home/houstar/ezsdk/component-sources/xdais_7_22_00_03/packages/ti/xdais/dm/xdm.h:
+/home/houstar/ezsdk/component-sources/xdais_7_22_00_03/packages/ti/xdais/dm/ivideo.h:
+/home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/packages/ti/targets/std.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stdint.h:

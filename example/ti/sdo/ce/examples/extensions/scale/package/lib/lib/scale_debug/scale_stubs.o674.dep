@@ -1,0 +1,22 @@
+package/lib/lib/scale_debug/scale_stubs.o674: scale_stubs.c /home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/packages/xdc/std.h /home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/visa.h /home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/codecs/scale/iscale.h /home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/osal/Memory.h ./scale.h ./_scale.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stdarg.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stddef.h /home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/packages/ti/targets/std.h /home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/packages/ti/targets/select.h /home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/node/node.h /home/houstar/ezsdk/component-sources/xdais_7_22_00_03/packages/ti/xdais/ialg.h /home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/Engine.h /home/houstar/ezsdk/component-sources/xdais_7_22_00_03/packages/ti/xdais/xdas.h /home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/skel.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stdint.h /home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/ipc/Comm.h /home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/Server.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stdio.h /home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/linkage.h 
+scale_stubs.c:
+/home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/packages/xdc/std.h:
+/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/visa.h:
+/home/houstar/DM8168/code/codec_engine/example/ti/sdo/ce/examples/codecs/scale/iscale.h:
+/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/osal/Memory.h:
+./scale.h:
+./_scale.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stdarg.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stddef.h:
+/home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/packages/ti/targets/std.h:
+/home/houstar/ezsdk/component-sources/xdctools_3_23_03_53/packages/ti/targets/select.h:
+/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/node/node.h:
+/home/houstar/ezsdk/component-sources/xdais_7_22_00_03/packages/ti/xdais/ialg.h:
+/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/Engine.h:
+/home/houstar/ezsdk/component-sources/xdais_7_22_00_03/packages/ti/xdais/xdas.h:
+/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/skel.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stdint.h:
+/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/ipc/Comm.h:
+/home/houstar/ezsdk/component-sources/codec_engine_3_22_01_06/packages/ti/sdo/ce/Server.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/stdio.h:
+/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4/include/linkage.h:

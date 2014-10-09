@@ -1,0 +1,14 @@
+package.xdc
+package.xs
+SPHENC_COPY.xdc
+SPHENC_COPY.xs
+package/ti.sdo.ce.examples.codecs.sphenc_copy.sch
+package/.vers_g180
+package/.vers_r170
+package/.vers_b150
+package/.xdc-y25
+package/ti_sdo_ce_examples_codecs_sphenc_copy.java
+package/ti_sdo_ce_examples_codecs_sphenc_copy.class
+package/package_ti.sdo.ce.examples.codecs.sphenc_copy.c
+package/package.defs.h
+package/ti.sdo.ce.examples.codecs.sphenc_copy.ccs

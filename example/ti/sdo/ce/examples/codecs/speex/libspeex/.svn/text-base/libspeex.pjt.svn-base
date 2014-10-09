@@ -1,0 +1,54 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectDir="C:\AudioLib\thirtypart\speex\libspeex\"
+ProjectType=Library
+CPUFamily=TMS320C67XX
+Tool="Archiver"
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="DspBiosBuilder"
+Tool="XDC"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="bits.c"
+Source="cb_search.c"
+Source="exc_10_16_table.c"
+Source="exc_10_32_table.c"
+Source="exc_20_32_table.c"
+Source="exc_5_256_table.c"
+Source="exc_5_64_table.c"
+Source="exc_8_128_table.c"
+Source="filters.c"
+Source="gain_table.c"
+Source="gain_table_lbr.c"
+Source="lpc.c"
+Source="lsp.c"
+Source="lsp_tables_nb.c"
+Source="ltp.c"
+Source="modes.c"
+Source="modes_wb.c"
+Source="nb_celp.c"
+Source="quant_lsp.c"
+Source="sb_celp.c"
+Source="speex.c"
+Source="speex_callbacks.c"
+Source="speex_header.c"
+Source="vbr.c"
+Source="vq.c"
+Source="window.c"
+
+["Archiver" Settings: "Debug"]
+Options=-r -o".\Debug\libspeex.lib"
+
+["Archiver" Settings: "Release"]
+Options=-r -o".\Release\libspeex.lib"
+
+["Compiler" Settings: "Debug"]
+Options=-g -pdsw225 -fr"$(Proj_dir)\Debug" -i"../" -i"../include" -i"../include/speex" -d"_DEBUG" -d"CONFIG_TI_C6X" -d"HAVE_CONFIG_H" -d"USE_SMALLFT" -mv6400
+
+["Compiler" Settings: "Release"]
+Options=-pdsw225 -o3 -fr"$(Proj_dir)\Release" -mv6700
+

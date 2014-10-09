@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  This file conforms to the DTD xdc/bld/build.dtd -->
+<package name="ti.sdo.fc.ires.examples.codecs.auddec1" version="1, 0, 0" producerId="undefined">
+    <units>
+    </units>
+    <sources>
+        <srcFile name="package/package_ti.sdo.fc.ires.examples.codecs.auddec1.c"/>
+        <srcFile name="auddec1_ti.c"/>
+        <srcFile name="auddec1_ti_ires.c"/>
+    </sources>
+    <configscripts>
+    </configscripts>
+    <makefiles>
+        <srcFile name="package.mak" src="package.bld"/>
+        <srcFile name="package/package.xdc.dep" src="package.xdc"/>
+        <srcFile name="package/package.cfg.dep" src="package.xdc"/>
+        <srcFile name="lib/debug/auddec1_ti.a674.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/debug/auddec1_ti/package/package_ti.sdo.fc.ires.examples.codecs.auddec1.o674.dep" src="package/package_ti.sdo.fc.ires.examples.codecs.auddec1.c"/>
+        <srcFile name="package/lib/lib/debug/auddec1_ti/auddec1_ti.o674.dep" src="auddec1_ti.c"/>
+        <srcFile name="package/lib/lib/debug/auddec1_ti/auddec1_ti_ires.o674.dep" src="auddec1_ti_ires.c"/>
+        <srcFile name="lib/release/auddec1_ti.a674.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/release/auddec1_ti/package/package_ti.sdo.fc.ires.examples.codecs.auddec1.o674.dep" src="package/package_ti.sdo.fc.ires.examples.codecs.auddec1.c"/>
+        <srcFile name="package/lib/lib/release/auddec1_ti/auddec1_ti.o674.dep" src="auddec1_ti.c"/>
+        <srcFile name="package/lib/lib/release/auddec1_ti/auddec1_ti_ires.o674.dep" src="auddec1_ti_ires.c"/>
+        <srcFile name="lib/debug/auddec1_ti.ae674.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/debug/auddec1_ti/package/package_ti.sdo.fc.ires.examples.codecs.auddec1.oe674.dep" src="package/package_ti.sdo.fc.ires.examples.codecs.auddec1.c"/>
+        <srcFile name="package/lib/lib/debug/auddec1_ti/auddec1_ti.oe674.dep" src="auddec1_ti.c"/>
+        <srcFile name="package/lib/lib/debug/auddec1_ti/auddec1_ti_ires.oe674.dep" src="auddec1_ti_ires.c"/>
+        <srcFile name="lib/release/auddec1_ti.ae674.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/release/auddec1_ti/package/package_ti.sdo.fc.ires.examples.codecs.auddec1.oe674.dep" src="package/package_ti.sdo.fc.ires.examples.codecs.auddec1.c"/>
+        <srcFile name="package/lib/lib/release/auddec1_ti/auddec1_ti.oe674.dep" src="auddec1_ti.c"/>
+        <srcFile name="package/lib/lib/release/auddec1_ti/auddec1_ti_ires.oe674.dep" src="auddec1_ti_ires.c"/>
+        <srcFile name="package/rel/ti_sdo_fc_ires_examples_codecs_auddec1.tar.dep" src="package/rel/ti_sdo_fc_ires_examples_codecs_auddec1.xdc.inc"/>
+    </makefiles>
+    <targets>
+        <target name="ti.targets.C674"
+            version="ti.targets.C674{1,0,7.3,4"
+            platform="ti.platforms.evmDA830"
+            isa="674"
+            suffix="674"
+            rootDir="/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4"
+            os="undefined"
+            rts="ti.targets.rts6000">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.elf.C674"
+            version="ti.targets.elf.C674{1,0,7.3,4"
+            platform="ti.platforms.evmDA830"
+            isa="674"
+            suffix="e674"
+            rootDir="/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4"
+            os="undefined"
+            rts="ti.targets.rts6000">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+    </targets>
+    <libraries>
+    <library name="lib/debug/auddec1_ti"
+        pname="lib/debug/auddec1_ti.a674"
+        profile="debug"
+        target="ti.targets.C674"/>
+    <library name="lib/release/auddec1_ti"
+        pname="lib/release/auddec1_ti.a674"
+        profile="release"
+        target="ti.targets.C674"/>
+    <library name="lib/debug/auddec1_ti"
+        pname="lib/debug/auddec1_ti.ae674"
+        profile="debug"
+        target="ti.targets.elf.C674"/>
+    <library name="lib/release/auddec1_ti"
+        pname="lib/release/auddec1_ti.ae674"
+        profile="release"
+        target="ti.targets.elf.C674"/>
+    </libraries>
+    <configurations>
+    </configurations>
+    <executables>
+    </executables>
+    <tests>
+    </tests>
+    <releases relDir="package/rel/">
+    <release name="ti_sdo_fc_ires_examples_codecs_auddec1"
+        pname="ti_sdo_fc_ires_examples_codecs_auddec1.tar"
+        label="default"
+    >
+        <file name="package/package.bld.xml"/>
+        <file name="package/package.ext.xml"/>
+        <file name="package/package.rel.dot"/>
+        <file name="package/build.cfg"/>
+        <file name="package/package.xdc.inc"/>
+        <file name="auddec1_ti.h"/>
+        <file name="lib"/>
+        <file name="package.bld"/>
+        <file name="auddec1_ti_priv.h"/>
+        <file name="package/package.cfg.xdc.inc"/>
+        <file name="lib/debug/auddec1_ti.a674"/>
+        <file name="package/package_ti.sdo.fc.ires.examples.codecs.auddec1.c"/>
+        <file name="auddec1_ti.c"/>
+        <file name="auddec1_ti_ires.c"/>
+        <file name="lib/release/auddec1_ti.a674"/>
+        <file name="lib/debug/auddec1_ti.ae674"/>
+        <file name="lib/release/auddec1_ti.ae674"/>
+    </release>
+    </releases>
+    <repositories>
+    </repositories>
+</package>

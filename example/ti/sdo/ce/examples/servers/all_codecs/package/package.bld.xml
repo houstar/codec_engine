@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  This file conforms to the DTD xdc/bld/build.dtd -->
+<package name="ti.sdo.ce.examples.servers.all_codecs" version="1, 0, 0" producerId="undefined">
+    <units>
+    </units>
+    <sources>
+        <srcFile name="package/cfg/bin/ti_platforms_evmTI816X/all_DSP_pe674.c"/>
+        <srcFile name="main.c"/>
+    </sources>
+    <configscripts>
+        <srcFile name="all_syslink.cfg"/>
+    </configscripts>
+    <makefiles>
+        <srcFile name="package.mak" src="package.bld"/>
+        <srcFile name="package/package.xdc.dep" src="package.xdc"/>
+        <srcFile name="package/cfg/bin/ti_platforms_evmTI816X/all_DSP_pe674.mak" src="package.bld"/>
+        <srcFile name="package/cfg/bin/ti_platforms_evmTI816X/all_DSP_pe674.oe674.dep" src="package/cfg/bin/ti_platforms_evmTI816X/all_DSP_pe674.c"/>
+        <srcFile name="package/cfg/bin/ti_platforms_evmTI816X/all_DSP_pe674.dep" src="package/cfg/bin/ti_platforms_evmTI816X/all_DSP_pe674.cfg"/>
+        <srcFile name="package/cfg/bin/ti_platforms_evmTI816X/all_DSP.xe674.mak" src="package.bld"/>
+        <srcFile name="package/cfg/bin/ti_platforms_evmTI816X/all_DSP/main.oe674.dep" src="main.c"/>
+        <srcFile name="package/rel/ti_sdo_ce_examples_servers_all_codecs.tar.dep" src="package/rel/ti_sdo_ce_examples_servers_all_codecs.xdc.inc"/>
+    </makefiles>
+    <targets>
+        <target name="ti.targets.elf.C674"
+            version="ti.targets.elf.C674{1,0,7.3,4"
+            platform="ti.platforms.evmDA830"
+            isa="674"
+            suffix="e674"
+            rootDir="/home/houstar/ezsdk/dsp-devkit/cgt6x_7_3_4"
+            os="undefined"
+            rts="ti.targets.rts6000">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+    </targets>
+    <libraries>
+    </libraries>
+    <configurations>
+    <configuration name="bin/ti_platforms_evmTI816X/all_DSP"
+        pname="bin/ti_platforms_evmTI816X/all_DSP.pe674"
+        target="ti.targets.elf.C674"
+        platform="ti.platforms.evmTI816X:DSP"
+        profile="debug"
+        isPartial="false"
+        xCfgScript="package/cfg/bin/ti_platforms_evmTI816X/all_DSP_pe674.cfg"
+        xCfgPrefix="package/cfg/bin/ti_platforms_evmTI816X/all_DSP_pe674"
+        cfgScript="all_syslink.cfg"
+        cfgArgs="%7B%20lld%20%3A%20false%7D"
+        />
+    </configurations>
+    <executables>
+    <executable name="bin/ti_platforms_evmTI816X/all_DSP"
+        pname="bin/ti_platforms_evmTI816X/all_DSP.xe674"
+        target="ti.targets.elf.C674"
+        platform="ti.platforms.evmTI816X:DSP"
+        profile="debug"
+        xCfgScript="package/cfg/bin/ti_platforms_evmTI816X/all_DSP_pe674.cfg"
+        xCfgPrefix="package/cfg/bin/ti_platforms_evmTI816X/all_DSP_pe674"
+        cfgScript="all_syslink.cfg"
+        cfgArgs="%7B%20lld%20%3A%20false%7D"
+        />
+    </executables>
+    <tests>
+    <test exeName="bin/ti_platforms_evmTI816X/all_DSP.xe674"
+        args=""
+        groupName="bin/ti_platforms_evmTI816X/all_DSP.xe674"
+        refOutput="undefined"
+        refExitCode="0"
+        execArgs=""
+        />
+    </tests>
+    <releases relDir="package/rel/">
+    <release name="ti_sdo_ce_examples_servers_all_codecs"
+        pname="ti_sdo_ce_examples_servers_all_codecs.tar"
+        label="default"
+    >
+        <file name="package/package.bld.xml"/>
+        <file name="package/package.ext.xml"/>
+        <file name="package/package.rel.dot"/>
+        <file name="package/build.cfg"/>
+        <file name="package/package.xdc.inc"/>
+        <file name="main.c"/>
+        <file name="setid.c"/>
+        <file name="all_mc.cfg"/>
+        <file name="all_syslink.cfg"/>
+        <file name="heaps.cfg"/>
+        <file name="link.cmd"/>
+        <file name="package.bld"/>
+        <file name="_config.bld"/>
+        <file name="makefile"/>
+        <file name="ti_platforms_evm3530.cfg"/>
+        <file name="ti_platforms_evm6472.cfg"/>
+        <file name="ti_platforms_evmTI814X.cfg"/>
+        <file name="ti_platforms_evmTI816X.cfg"/>
+        <file name="ti_platforms_evmTI813X.cfg"/>
+        <file name="serverplatforms.xs"/>
+        <file name="package/info"/>
+        <file name="android_config.bld"/>
+    </release>
+    </releases>
+    <repositories>
+    </repositories>
+</package>

@@ -1,0 +1,17 @@
+package.xs
+package.xdc
+sphenc_copy.c
+makefile
+SPHENC_COPY.xdc
+sphenc_copy_ti_priv.h
+package.bld
+SPHENC_COPY.xs
+sphenc_copy_ti.h
+package/package.bld.xml
+package/package.ext.xml
+package/package.rel.dot
+package/build.cfg
+package/package.xdc.inc
+package/package.cfg.xdc.inc
+lib/sphenc_copy.a674
+lib/sphenc_copy.ae674
